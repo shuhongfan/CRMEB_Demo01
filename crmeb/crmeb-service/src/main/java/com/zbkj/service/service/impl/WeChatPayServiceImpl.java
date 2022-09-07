@@ -98,6 +98,7 @@ public class WeChatPayServiceImpl implements WeChatPayService {
 
     /**
      * 查询支付结果
+     *
      * @param orderNo 订单编号
      * @return
      */
@@ -213,7 +214,7 @@ public class WeChatPayServiceImpl implements WeChatPayService {
                         storePink.setStopTime(headPink.getStopTime());
                     } else {
                         DateTime hourTime = cn.hutool.core.date.DateUtil.offsetHour(dateTime, effectiveTime);
-                        long stopTime =  hourTime.getTime();
+                        long stopTime = hourTime.getTime();
                         if (stopTime > storeCombination.getStopTime()) {
                             stopTime = storeCombination.getStopTime();
                         }
@@ -237,6 +238,7 @@ public class WeChatPayServiceImpl implements WeChatPayService {
             redisUtil.lPush(TaskConstants.ORDER_TASK_PAY_SUCCESS_AFTER, orderNo);
             return Boolean.TRUE;
         }
+
         // 充值订单
         UserRecharge userRecharge = new UserRecharge();
         userRecharge.setOrderId(orderNo);
@@ -277,8 +279,9 @@ public class WeChatPayServiceImpl implements WeChatPayService {
 
     /**
      * 微信充值预下单接口
+     *
      * @param userRecharge 充值订单
-     * @param clientIp      ip
+     * @param clientIp     ip
      * @return
      */
     @Override
@@ -305,48 +308,64 @@ public class WeChatPayServiceImpl implements WeChatPayService {
 
         // 获取appid、mch_id
         // 微信签名key
-        String appId = "";
-        String mchId = "";
-        String signKey = "";
-        if (userRecharge.getRechargeType().equals(PayConstants.PAY_CHANNEL_WE_CHAT_PUBLIC)) {// 公众号
-            appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_ID);
-            mchId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_MCH_ID);
-            signKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_KEY);
-        }
-        if (userRecharge.getRechargeType().equals(PayConstants.PAY_CHANNEL_WE_CHAT_PROGRAM)) {// 小程序
-            appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ROUTINE_APP_ID);
-            mchId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ROUTINE_MCH_ID);
-            signKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ROUTINE_APP_KEY);
-        }
-        if (userRecharge.getRechargeType().equals(PayConstants.PAY_CHANNEL_WE_CHAT_H5)) {// H5,使用公众号的
-            appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_ID);
-            mchId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_MCH_ID);
-            signKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_KEY);
-        }
+        String appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_APP_ID);
+        String sellerId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_SELLER_ID);
+        ;
+        String gatewayUrl = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_GATEWAY_URL);
+        ;
+        String merchantPrivateKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_MERCHANT_PRIVATE_KEY);
+        ;
+        String publicKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_PUBLIC_KEY);
+        ;
+        String contentKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_CONTENT_KEY);
+        ;
+        String returnUrl = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_RETURN_URL);
+        ;
+        String notifyUrl = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_NOTIFY_URL);
+        ;
+
+//        if (userRecharge.getRechargeType().equals(PayConstants.PAY_CHANNEL_WE_CHAT_PUBLIC)) {// 公众号
+//            appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_ID);
+//            mchId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_MCH_ID);
+//            signKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_KEY);
+//        }
+//        if (userRecharge.getRechargeType().equals(PayConstants.PAY_CHANNEL_WE_CHAT_PROGRAM)) {// 小程序
+//            appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ROUTINE_APP_ID);
+//            mchId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ROUTINE_MCH_ID);
+//            signKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ROUTINE_APP_KEY);
+//        }
+//        if (userRecharge.getRechargeType().equals(PayConstants.PAY_CHANNEL_WE_CHAT_H5)) {// H5,使用公众号的
+//            appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_ID);
+//            mchId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_MCH_ID);
+//            signKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_KEY);
+//        }
+
 
         // 获取微信预下单对象
-        CreateOrderRequestVo unifiedorderVo = getUnifiedorderVo(userRecharge, userToken.getToken(), clientIp, appId, mchId, signKey);
+        CreateOrderRequestVo unifiedorderVo = getUnifiedorderVo(userRecharge, userToken.getToken(), clientIp, appId, sellerId, signKey);
         // 预下单
-        CreateOrderResponseVo responseVo = unifiedOrder(unifiedorderVo);
+//        CreateOrderResponseVo responseVo = unifiedOrder(unifiedorderVo);
 
         // 组装前端预下单参数
         Map<String, String> map = new HashMap<>();
-        map.put("appId", unifiedorderVo.getAppid());
-        map.put("nonceStr", unifiedorderVo.getNonce_str());
-        map.put("package", "prepay_id=".concat(responseVo.getPrepayId()));
-        map.put("signType", unifiedorderVo.getSign_type());
+        map.put("appId", appId);
+        map.put("notify-url", notifyUrl);
+        map.put("out_trade_no", unifiedorderVo.getOut_trade_no());
+        map.put("return-url", returnUrl);
+        BigDecimal total_amount = new BigDecimal(unifiedorderVo.getTotal_fee()).divide(new BigDecimal(100));
+        map.put("total_amount", String.valueOf(total_amount));
+        map.put("subject", unifiedorderVo.getBody());
+        map.put("product_code", "QUICK_WAP_WAY");
+
         Long currentTimestamp = WxPayUtil.getCurrentTimestamp();
         map.put("timeStamp", Long.toString(currentTimestamp));
-        String paySign = WxPayUtil.getSign(map, signKey);
-        map.put("paySign", paySign);
-        if (userRecharge.getRechargeType().equals(PayConstants.PAY_CHANNEL_WE_CHAT_H5)) {
-            map.put("mweb_url", responseVo.getMWebUrl());
-        }
+
         return map;
     }
 
     /**
      * 生成微信查询订单对象
+     *
      * @return
      */
     private Map<String, String> getWxChantQueryPayVo(String orderNo, String appId, String mchId, String signKey) {
@@ -362,6 +381,7 @@ public class WeChatPayServiceImpl implements WeChatPayService {
 
     /**
      * 获取微信预下单对象
+     *
      * @return
      */
     private CreateOrderRequestVo getUnifiedorderVo(UserRecharge userRecharge, String openid, String ip, String appId, String mchId, String signKey) {
@@ -424,7 +444,7 @@ public class WeChatPayServiceImpl implements WeChatPayService {
             }
             CreateOrderResponseVo responseVo = CrmebUtil.mapToObj(map, CreateOrderResponseVo.class);
             if (responseVo.getReturnCode().toUpperCase().equals("FAIL")) {
-                throw new CrmebException("微信下单失败1！" +  responseVo.getReturnMsg());
+                throw new CrmebException("微信下单失败1！" + responseVo.getReturnMsg());
             }
 
             if (responseVo.getResultCode().toUpperCase().equals("FAIL")) {

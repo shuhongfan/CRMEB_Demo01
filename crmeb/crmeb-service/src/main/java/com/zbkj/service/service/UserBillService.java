@@ -72,4 +72,6 @@ public interface UserBillService extends IService<UserBill> {
      * @return PageInfo
      */
     PageInfo<UserBill> nowMoneyBillRecord(Integer uid, String type, PageParamRequest pageRequest);
+
+    void insert(UserBill userBill);
 }

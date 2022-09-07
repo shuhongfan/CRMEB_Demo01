@@ -130,6 +130,9 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
     @Autowired
     private SmsTemplateService smsTemplateService;
 
+    @Autowired
+    private AliPayService aliPayService;
+
     /**
     * 列表
     * @param request 请求参数
@@ -537,8 +540,17 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
             }
         }
 
+        if (storeOrder.getPayType().equals(Constants.PAY_TYPE_ALI_PAY) && request.getAmount().compareTo(BigDecimal.ZERO) > 0) {
+            try {
+                aliPayService.tradeRefund(storeOrder.getOrderId());
+            } catch (Exception e) {
+                e.printStackTrace();
+                throw new CrmebException("支付宝申请退款失败！");
+            }
+        }
+
         //修改订单退款状态
-        storeOrder.setRefundStatus(3);
+        storeOrder.setRefundStatus(2);
         storeOrder.setRefundPrice(request.getAmount());
 
         Boolean execute = transactionTemplate.execute(e -> {

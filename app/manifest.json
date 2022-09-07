@@ -99,7 +99,11 @@
         },
         "domain" : "",
         "sdkConfigs" : {
-            "maps" : {}
+            "maps" : {
+                "qqmap" : {
+                    "key" : "TPSBZ-HWDKX-ETP4G-TVWEB-PNL4J-44FJQ"
+                }
+            }
         },
         "optimization" : {
             "treeShaking" : {

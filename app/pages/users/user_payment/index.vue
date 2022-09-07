@@ -113,6 +113,7 @@
 			// #ifdef H5
 			this.from = this.$wechat.isWeixin() ? "public" : "weixinh5";
 			// #endif
+
 			if (this.isLogin) {
 				this.getRecharge();
 			} else {
@@ -282,13 +283,16 @@
 						})
 					});
 					// #endif
-					// #ifdef H5 
+					// #ifdef H5
 					rechargeWechat({
 						price: money,
 						from: that.from,
 						rechar_id: that.rechar_id,
 						payType: 0
 					}).then(res => {
+						document.write(res.data.alipayRequest);
+						return;
+
 						let jsConfig = res.data.jsConfig;
 						let orderNo = res.data.orderNo;
 						let data = {

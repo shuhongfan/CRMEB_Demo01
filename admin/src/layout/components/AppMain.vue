@@ -19,25 +19,19 @@ export default {
     return {
       links: [
         {
-          title: '官网',
+          title: '舒洪凡的Github',
           key: '1',
-          href: 'https://www.crmeb.com',
+          href: 'https://github.com/shuhongfan',
           blankTarget: true
         },
         {
-          title: '社区',
+          title: '凡购商城GITHUB',
           key: '2',
-          href: 'https://q.crmeb.net/?categoryId=122&sequence=0',
-          blankTarget: true
-        },
-        {
-          title: '文档',
-          key: '3',
-          href: 'https://help.crmeb.net/crmeb_java/1748037',
+          href: 'https://github.com/shuhongfan/CRMEB_Demo01',
           blankTarget: true
         }
       ],
-      copyright: 'Copyright © 2020 西安众邦网络科技有限公司'
+      copyright: 'Copyright © 2022 shuhongfan'
     }
   },
   computed: {

@@ -16,7 +16,7 @@
 						<view class="acea-row">
 							<text class='default font-color'
 								v-if="addressInfo.isDefault">[默认]</text>
-							<text class="line2">{{addressInfo.province}}{{addressInfo.city}}{{addressInfo.district}}{{addressInfo.detail}}</text>	
+							<text class="line2">{{addressInfo.province}}{{addressInfo.city}}{{addressInfo.district}}{{addressInfo.detail}}</text>
 						</view>
 					</view>
 					<view class='addressCon' v-else>
@@ -53,7 +53,7 @@
 							<text class='iconfont icon-jiantou'></text>
 						</view>
 					</view>
-					
+
 					<view class='item acea-row row-between-wrapper'
 						v-if="!orderInfoVo.bargainId && !orderInfoVo.combinationId && !orderInfoVo.seckillId && productType==='normal'">
 						<view>积分抵扣</view>
@@ -212,19 +212,26 @@
 				textareaStatus: true,
 				//支付方式
 				cartArr: [{
-						"name": "微信支付",
-						"icon": "icon-weixin2",
-						value: 'weixin',
-						title: '微信快捷支付',
+						"name": "支付宝支付",
+						"icon": "icon-zhifubao",
+						value: 'alipay',
+						title: '支付宝快捷支付',
 						payStatus: 1,
 					},
+          // {
+					// 	"name": "微信支付",
+					// 	"icon": "icon-weixin2",
+					// 	value: 'weixin',
+					// 	title: '微信快捷支付',
+					// 	payStatus: 1,
+					// },
 					{
 						"name": "余额支付",
 						"icon": "icon-icon-test",
 						value: 'yue',
 						title: '可用余额:',
 						payStatus: 1,
-					}
+					},
 					// {
 					// 	"name": "线下支付", //offlinePayStatu：1开启线下支付；2关闭；offlinePostage：true有邮费
 					// 	"icon": "icon-yinhangqia",
@@ -233,7 +240,7 @@
 					// 	payStatus: 1,
 					// },
 				],
-				payType: 'weixin', //支付方式
+				payType: 'alipay', //支付方式
 				openType: 1, //优惠券打开方式 1=使用
 				active: 0, //支付方式切换
 				coupon: {
@@ -307,7 +314,7 @@
 		},
 		onLoad(options) {
 			// #ifdef H5
-			this.payChannel = this.$wechat.isWeixin() ? 'public' : 'weixinh5';
+			this.payChannel = this.$wechat.isWeixin() ? 'public' : 'alipay';
 			// #endif
 			// #ifdef MP
 			this.payChannel = 'routine';
@@ -333,11 +340,11 @@
 		 */
 		onShow: function() {
 			let _this = this
-			// wx.getLaunchOptionsSync 
+			// wx.getLaunchOptionsSync
 			this.textareaStatus = true;
 			if (this.isLogin && this.toPay == false) {
 				//this.getaddressInfo();
-				
+
 			}
 
 			uni.$on("handClick", res => {
@@ -387,7 +394,7 @@
 			},
 			/**
 			 * 授权回调事件
-			 * 
+			 *
 			 */
 			onLoadFun: function() {
 				//this.getaddressInfo();
@@ -485,7 +492,7 @@
 			},
 			/**
 			 * 处理点击优惠券后的事件
-			 * 
+			 *
 			 */
 			ChangCoupons: function(e) {
 				// this.usableCoupon = e
@@ -549,7 +556,7 @@
 			},
 			/**
 			 * 获取当前金额可用优惠券
-			 * 
+			 *
 			 */
 			getCouponList: function() {
 				getCouponsOrderPrice(this.preOrderNo).then(res => {
@@ -634,6 +641,9 @@
 					payType: that.payType,
 					scene: that.productType==='normal'? 0 :1177 //下单时小程序的场景值
 				}).then(res => {
+          document.write(res.data.alipayRequest)
+          return
+
 					let jsConfig = res.data.jsConfig;
 					switch (res.data.payType) {
 						case 'weixin':
@@ -671,7 +681,7 @@
 											title: err
 										});
 									})
-								
+
 								},
 								fail: function(e) {
 									uni.hideLoading();

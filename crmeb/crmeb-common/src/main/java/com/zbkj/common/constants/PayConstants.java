@@ -42,6 +42,7 @@ public class PayConstants {
     public static final String WX_PAY_ORDER_QUERY_API_URI = "pay/orderquery";
     // 微信支付回调地址
     public static final String WX_PAY_NOTIFY_API_URI = "/api/admin/payment/callback/wechat";
+    public static final String AliPAY_NOTIFY_API_URI = "/api/admin/payment/callback/alipay";
     // 微信退款回调地址
     public static final String WX_PAY_REFUND_NOTIFY_API_URI = "/api/admin/payment/callback/wechat/refund";
 

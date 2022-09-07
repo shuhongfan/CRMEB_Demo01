@@ -1,0 +1,176 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 09:27:04.808",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 10:53:50.523",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 11:58:25.135",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 12:46:59.703",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 13:55:43.635",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 14:14:48.506",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 16:58:34.945",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 16:58:42.881",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderAutoCancelTask': Unsatisfied dependency expressed through field 'orderTaskService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderTaskServiceImpl': Unsatisfied dependency expressed through field 'orderPayService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderPayServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.api.AlipayClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 17:03:26.487",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 17:03:32.219",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderAutoCancelTask': Unsatisfied dependency expressed through field 'orderTaskService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderTaskServiceImpl': Unsatisfied dependency expressed through field 'orderPayService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderPayServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.api.AlipayClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 17:05:38.370",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 17:05:44.962",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderAutoCancelTask': Unsatisfied dependency expressed through field 'orderTaskService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderTaskServiceImpl': Unsatisfied dependency expressed through field 'orderPayService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderPayServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.api.AlipayClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 17:16:55.708",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 19:11:15.078",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 19:11:22.227",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callbackController': Unsatisfied dependency expressed through field 'callbackService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callbackServiceImpl': Unsatisfied dependency expressed through field 'rechargePayService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rechargePayServiceImpl': Unsatisfied dependency expressed through field 'userRechargeService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRechargeServiceImpl': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'storeOrderService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'storeOrderServiceImpl': Unsatisfied dependency expressed through field 'aliPayService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aliPayServiceImpl' defined in file [C:\CODE\crmeb_java\crmeb\crmeb-service\target\classes\com\zbkj\service\service\impl\AliPayServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zbkj.service.service.impl.AliPayServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 19:13:00.341",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 19:18:33.850",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 19:23:21.777",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 19:24:59.509",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 19:44:24.285",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 21:29:25.842",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-06 22:57:26.757",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    

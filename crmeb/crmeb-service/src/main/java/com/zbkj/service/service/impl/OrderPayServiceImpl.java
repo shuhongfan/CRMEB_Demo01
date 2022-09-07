@@ -5,6 +5,10 @@ import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSONObject;
+import com.alipay.api.*;
+import com.alipay.api.AlipayConfig;
+import com.alipay.api.request.AlipayTradeWapPayRequest;
+import com.alipay.api.response.AlipayTradeWapPayResponse;
 import com.zbkj.common.constants.*;
 import com.zbkj.common.exception.CrmebException;
 import com.zbkj.common.model.combination.StoreCombination;
@@ -34,9 +38,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.support.TransactionTemplate;
 
+import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
@@ -159,6 +165,12 @@ public class OrderPayServiceImpl implements OrderPayService {
 
     @Autowired
     private SmsTemplateService smsTemplateService;
+
+    @Resource
+    private AliPayService aliPayService;
+
+    @Resource
+    private Environment config;
 
     /**
      * 支付成功处理
@@ -569,7 +581,9 @@ public class OrderPayServiceImpl implements OrderPayService {
 
         // 用户余额扣除
         User user = userService.getById(storeOrder.getUid());
-        if (ObjectUtil.isNull(user)) throw new CrmebException("用户不存在");
+        if (ObjectUtil.isNull(user)) {
+            throw new CrmebException("用户不存在");
+        }
         if (user.getNowMoney().compareTo(storeOrder.getPayPrice()) < 0) {
             throw new CrmebException("用户余额不足");
         }
@@ -647,7 +661,9 @@ public class OrderPayServiceImpl implements OrderPayService {
 
             return Boolean.TRUE;
         });
-        if (!execute) throw new CrmebException("余额支付订单失败");
+        if (!execute) {
+            throw new CrmebException("余额支付订单失败");
+        }
         return execute;
     }
 
@@ -672,7 +688,9 @@ public class OrderPayServiceImpl implements OrderPayService {
             throw new CrmebException("订单已支付");
         }
         User user = userService.getById(storeOrder.getUid());
-        if (ObjectUtil.isNull(user)) throw new CrmebException("用户不存在");
+        if (ObjectUtil.isNull(user)) {
+            throw new CrmebException("用户不存在");
+        }
 
         // 判断订单是否还是之前的支付类型
         if (!storeOrder.getPayType().equals(orderPayRequest.getPayType())) {
@@ -695,6 +713,16 @@ public class OrderPayServiceImpl implements OrderPayService {
                         break;
                     case PayConstants.PAY_CHANNEL_WE_CHAT_PROGRAM:// 小程序
                         storeOrder.setIsChannel(1);
+                        break;
+                }
+            }
+            if (orderPayRequest.getPayType().equals(PayConstants.PAY_TYPE_ALI_PAY)) {
+                switch (orderPayRequest.getPayChannel()){
+                    case PayConstants.PAY_CHANNEL_ALI_PAY:// 支付宝支付
+                        storeOrder.setIsChannel(6);
+                        break;
+                    case PayConstants.PAY_CHANNEL_ALI_APP_PAY:// 支付宝app支付
+                        storeOrder.setIsChannel(7);
                         break;
                 }
             }
@@ -745,6 +773,57 @@ public class OrderPayServiceImpl implements OrderPayService {
             response.setJsConfig(vo);
             return response;
         }
+
+//        支付宝支付
+        if (storeOrder.getPayType().equals(PayConstants.PAY_TYPE_ALI_PAY)) {
+            String appId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_APP_ID);
+            String sellerId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_SELLER_ID);
+            String gatewayUrl = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_GATEWAY_URL);
+            String merchantPrivateKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_MERCHANT_PRIVATE_KEY);
+            String publicKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_PUBLIC_KEY);
+            String contentKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_CONTENT_KEY);
+            String returnUrl = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_RETURN_URL);
+            String notifyUrl = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_ALIPAY_NOTIFY_URL);
+
+            AlipayTradeWapPayRequest request = new AlipayTradeWapPayRequest();
+            request.setNotifyUrl(notifyUrl);
+            request.setReturnUrl(returnUrl);
+            JSONObject bizContent = new JSONObject();
+            bizContent.put("out_trade_no", storeOrder.getOrderId());
+            bizContent.put("total_amount", storeOrder.getPayPrice());
+            bizContent.put("subject", storeOrder.getOrderId());
+            bizContent.put("product_code", "QUICK_WAP_WAY");
+            request.setBizContent(bizContent.toString());
+            AlipayTradeWapPayResponse res = null;
+            try {
+               AlipayConfig alipayConfig = new AlipayConfig();
+                //设置网关地址
+                alipayConfig.setServerUrl(gatewayUrl);
+                //设置应用Id
+                alipayConfig.setAppId(appId);
+                //设置应用私钥
+                alipayConfig.setPrivateKey(merchantPrivateKey);
+                //设置请求格式，固定值json
+                alipayConfig.setFormat(AlipayConstants.FORMAT_JSON);
+                //设置字符集
+                alipayConfig.setCharset(AlipayConstants.CHARSET_UTF8);
+                //设置支付宝公钥
+                alipayConfig.setAlipayPublicKey(publicKey);
+                //设置签名类型
+                alipayConfig.setSignType(AlipayConstants.SIGN_TYPE_RSA2);
+                //构造client
+                AlipayClient alipayClient = new DefaultAlipayClient(alipayConfig);
+
+                res = alipayClient.pageExecute(request);
+            } catch (AlipayApiException e) {
+                throw new CrmebException("创建支付交易失败");
+            }
+            response.setStatus(true);
+            System.out.println(res.getBody());
+            response.setAlipayRequest(res.getBody());
+            return response;
+        }
+
         // 余额支付
         if (storeOrder.getPayType().equals(PayConstants.PAY_TYPE_YUE)) {
             Boolean yueBoolean = yuePay(storeOrder);
@@ -757,6 +836,7 @@ public class OrderPayServiceImpl implements OrderPayService {
         response.setStatus(false);
         return response;
     }
+
 
     /**
      * 预下单
@@ -774,7 +854,10 @@ public class OrderPayServiceImpl implements OrderPayService {
         if (storeOrder.getIsChannel() == 1) {// 小程序
             userToken = userTokenService.getTokenByUserId(storeOrder.getUid(), 2);
         }
-        if (storeOrder.getIsChannel() == 2) {// H5
+        if (storeOrder.getIsChannel() == 2) {// H5 微信
+            userToken.setToken("");
+        }
+        if (storeOrder.getIsChannel() == 6) {// H5 支付宝
             userToken.setToken("");
         }
         if (ObjectUtil.isNull(userToken)) {
@@ -801,6 +884,7 @@ public class OrderPayServiceImpl implements OrderPayService {
             mchId = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_MCH_ID);
             signKey = systemConfigService.getValueByKeyException(Constants.CONFIG_KEY_PAY_WE_CHAT_APP_KEY);
         }
+
         // 获取微信预下单对象
         CreateOrderRequestVo unifiedorderVo = getUnifiedorderVo(storeOrder, userToken.getToken(), ip, appId, mchId, signKey);
         // 预下单（统一下单）

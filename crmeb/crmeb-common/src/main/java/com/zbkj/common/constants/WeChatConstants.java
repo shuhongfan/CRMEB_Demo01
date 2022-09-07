@@ -19,9 +19,9 @@ public class WeChatConstants {
     /** 公众号appSecret key */
     public static final String WECHAT_PUBLIC_APPSECRET = "wechat_appsecret";
     /** 小程序appId key */
-    public static final String WECHAT_MINI_APPID = "wx9e8dde9d2df9df58";
+    public static final String WECHAT_MINI_APPID = "routine_appid";
     // 小程序 名称
-    public static final String WECHAT_MINI_NAME = "舒洪凡的商城";
+    public static final String WECHAT_MINI_NAME = "routine_name";
     /** 小程序appSecret key */
     public static final String WECHAT_MINI_APPSECRET = "routine_appsecret";
 

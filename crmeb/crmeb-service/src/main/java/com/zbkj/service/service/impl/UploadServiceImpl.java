@@ -159,12 +159,12 @@ public class UploadServiceImpl implements UploadService {
         resultFile.setType(resultFile.getType().replace("image/", ""));
         SystemAttachment systemAttachment = new SystemAttachment();
         systemAttachment.setName(resultFile.getFileName());
-//        systemAttachment.setAttDir(resultFile.getUrl());
+        systemAttachment.setAttDir(resultFile.getUrl());
         systemAttachment.setSattDir(resultFile.getUrl());
         systemAttachment.setAttSize(resultFile.getFileSize().toString());
         systemAttachment.setAttType(resultFile.getType());
-        systemAttachment.setImageType(1);   //图片上传类型 1本地 2七牛云 3OSS 4COS, 默认本地
-//        systemAttachment.setAttDir(resultFile.getServerPath()); // 服务器上存储的绝对地址， 上传到云的时候使用
+        systemAttachment.setImageType(2);   //图片上传类型 1本地 2七牛云 3OSS 4COS, 默认本地
+        systemAttachment.setAttDir(resultFile.getServerPath()); // 服务器上存储的绝对地址， 上传到云的时候使用
         systemAttachment.setPid(pid);
 
         if (uploadTypeInt.equals(1)) {

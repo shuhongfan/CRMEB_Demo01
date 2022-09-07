@@ -150,10 +150,10 @@
 				page: 1,
 				limit: 20,
 				payMode: [{
-						name: "微信支付",
-						icon: "icon-weixinzhifu",
-						value: 'weixin',
-						title: '微信快捷支付'
+						name: "支付宝",
+						icon: "icon-zhifubao",
+						value: 'alipay',
+						title: '支付宝快捷支付'
 					},
 					{
 						name: "余额支付",
@@ -195,7 +195,7 @@
 			},
 			/**
 			 * 事件回调
-			 * 
+			 *
 			 */
 			onChangeFun: function(e) {
 				let opt = e;
@@ -205,7 +205,7 @@
 			},
 			/**
 			 * 关闭支付组件
-			 * 
+			 *
 			 */
 			payClose: function() {
 				this.pay_close = false;
@@ -218,7 +218,7 @@
 			},
 			/**
 			 * 获取订单统计数据
-			 * 
+			 *
 			 */
 			getOrderData: function() {
 				let that = this;
@@ -228,7 +228,7 @@
 			},
 			/**
 			 * 取消订单
-			 * 
+			 *
 			 */
 			cancelOrder: function(index, order_id) {
 				let that = this;
@@ -257,7 +257,7 @@
 			},
 			/**
 			 * 打开支付组件
-			 * 
+			 *
 			 */
 			goPay(pay_price, order_id) {
 				this.$set(this, 'pay_close', true);
@@ -266,7 +266,7 @@
 			},
 			/**
 			 * 支付成功回调
-			 * 
+			 *
 			 */
 			pay_complete: function() {
 				this.loadend = false;
@@ -278,7 +278,7 @@
 			},
 			/**
 			 * 支付失败回调
-			 * 
+			 *
 			 */
 			pay_fail: function() {
 				this.pay_close = false;
@@ -302,7 +302,7 @@
 				}).catch(() => {
 					uni.hideLoading();
 				})
-				// #endif  
+				// #endif
 				// #ifndef MP
 				uni.navigateTo({
 					url: '/pages/order_details/index?order_id=' + order_id

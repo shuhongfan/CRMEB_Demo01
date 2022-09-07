@@ -57,6 +57,7 @@ public class WebConfig implements WebMvcConfigurer {
         //前端用户登录token
         registry.addInterceptor(frontTokenInterceptor()).
                 addPathPatterns("/api/front/**").
+                excludePathPatterns("/api/front/pay/trade/notify").
                 excludePathPatterns("/api/front/index").
                 excludePathPatterns("/api/front/qrcode/**").
                 excludePathPatterns("/api/front/login/mobile").

@@ -87,6 +87,9 @@
 					// #endif
 					payType: paytype
 				}).then(res => {
+          document.write(res.data.alipayRequest)
+          return
+
 					let jsConfig = res.data.jsConfig;
 					that.order_id = res.data.orderNo;
 					switch (res.data.payType) {

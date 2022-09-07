@@ -6,6 +6,7 @@ import com.github.pagehelper.PageInfo;
 import com.zbkj.common.model.finance.UserRecharge;
 import com.zbkj.common.request.UserRechargeSearchRequest;
 import com.zbkj.common.response.UserRechargeResponse;
+import org.apache.ibatis.annotations.Param;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
@@ -80,4 +81,5 @@ public interface UserRechargeService extends IService<UserRecharge> {
      * @return Integer
      */
     Integer getRechargeUserNumByPeriod(String startDate, String endDate);
+
 }

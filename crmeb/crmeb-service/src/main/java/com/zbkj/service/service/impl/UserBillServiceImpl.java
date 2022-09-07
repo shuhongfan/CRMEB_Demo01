@@ -279,5 +279,11 @@ public class UserBillServiceImpl extends ServiceImpl<UserBillDao, UserBill> impl
         return CommonPage.copyPageInfo(billPage, billList);
     }
 
+    @Override
+    public void insert(UserBill userBill) {
+        baseMapper.insert(userBill);
+
+    }
+
 }
 

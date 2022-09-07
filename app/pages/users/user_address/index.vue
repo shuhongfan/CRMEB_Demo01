@@ -256,9 +256,16 @@
 				});
 			},
 			chooseLocation: function () {
+				let that = this;
 				uni.chooseLocation({
 					success: (res) => {
-						this.$set(this.userAddress,'detail',res.address.replace(/.+?(省|市|自治区|自治州|县|区)/g,''));
+						console.log(res)
+						var reg = /.+?(省|市|自治区|自治州|县|区)/g // 省市区的正则
+						console.log(res.address.match(reg)) // ['广东省','广州市','白云区']
+						let region = res.address.match(reg)
+						let address=res.address.replace(/.+?(省|市|自治区|自治州|县|区)/g,'')
+						this.$set(this.userAddress,'detail',address+res.name);
+						that.$set(that, 'region', region);
 					}
 				})
 			},

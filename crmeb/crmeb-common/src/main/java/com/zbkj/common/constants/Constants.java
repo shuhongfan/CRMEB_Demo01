@@ -157,6 +157,15 @@ public class Constants {
     public static final String LOGISTICS_KEY = "logistics_";
 
     //config配置的key
+    public static final String CONFIG_KEY_PAY_ALIPAY_APP_ID = "pay_alipay_appid"; //应用ID,您的APPID，收款账号既是您的APPID对应支付宝账号
+    public static final String CONFIG_KEY_PAY_ALIPAY_SELLER_ID = "pay_alipay_sellerid"; //商户PID,卖家支付宝账号ID
+    public static final String CONFIG_KEY_PAY_ALIPAY_GATEWAY_URL = "pay_alipay_geteway_url"; //支付宝网关
+    public static final String CONFIG_KEY_PAY_ALIPAY_MERCHANT_PRIVATE_KEY = "pay_alipay_merchant_private_key"; // 商户私钥，您的PKCS8格式RSA2私钥
+    public static final String CONFIG_KEY_PAY_ALIPAY_PUBLIC_KEY = "pay_alipay_public_key"; // 支付宝公钥,查看地址：https://openhome.alipay.com/platform/keyManage.htm 对应APPID下的支付宝公钥
+    public static final String CONFIG_KEY_PAY_ALIPAY_CONTENT_KEY = "pay_alipay_content_key"; // 接口内容加密秘钥，对称秘钥
+    public static final String CONFIG_KEY_PAY_ALIPAY_RETURN_URL = "pay_alipay_return_url"; // 页面跳转同步通知页面路径
+    public static final String CONFIG_KEY_PAY_ALIPAY_NOTIFY_URL = "pay_alipay_notify_url"; // 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
+
     public static final String CONFIG_KEY_SITE_URL = "site_url"; //域名
     public static final String CONFIG_KEY_API_URL = "api_url"; //admin接口地址
     public static final String CONFIG_KEY_FRONT_API_URL = "front_api_url"; //移动商城接口地址

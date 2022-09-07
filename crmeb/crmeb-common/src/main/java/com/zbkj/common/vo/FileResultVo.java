@@ -26,7 +26,7 @@ public class FileResultVo{
     private Long fileSize;
 
     // 文件存储在服务器的相对地址
-//    private String serverPath;
+    private String serverPath;
 
     //可供访问的url 域名根据配置存储，代替了上面serverPath 的功能
     private String url;
