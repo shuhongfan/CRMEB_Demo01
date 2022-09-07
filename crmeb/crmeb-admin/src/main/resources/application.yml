@@ -62,7 +62,7 @@ debug: true
 logging:
   level:
     io.swagger.*: error
-    com.zbjk.crmeb: debug
+    com.shf: debug
     org.springframework.boot.autoconfigure: ERROR
   config: classpath:logback-spring.xml
   file:
@@ -71,7 +71,7 @@ logging:
 # mybatis 配置
 mybatis-plus:
   mapper-locations: classpath*:mapper/*/*Mapper.xml #xml扫描，多个目录用逗号或者分号分隔（告诉 Mapper 所对应的 XML 文件位置）
-  typeAliasesPackage: com.zbkj.**.model
+  typeAliasesPackage: com.shf.**.model
   # 配置slq打印日志
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

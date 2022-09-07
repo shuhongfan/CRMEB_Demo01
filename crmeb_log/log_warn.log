@@ -38,3 +38,11 @@
                     "class": "o.m.spring.mapper.ClassPathMapperScanner",
                     "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
                     
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-07 14:23:41.064",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.shf.admin]' package. Please check your configuration." }
+                    

@@ -5,7 +5,7 @@
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -33,7 +33,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -61,7 +61,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -89,7 +89,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -117,7 +117,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -145,7 +145,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -173,7 +173,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -201,7 +201,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -229,7 +229,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -257,7 +257,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -285,7 +285,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -313,7 +313,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -341,7 +341,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -369,7 +369,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -397,7 +397,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -425,7 +425,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -453,7 +453,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -480,7 +480,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -507,7 +507,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -534,7 +534,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -561,7 +561,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -588,7 +588,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -615,7 +615,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -642,7 +642,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -669,7 +669,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -696,7 +696,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -723,7 +723,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -750,7 +750,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "Druid-ConnectionPool-Create-1443000737",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3306/crmeb?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8, errorCode 0, state null" }
-                    
+
 java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
@@ -776,52 +776,52 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "level": "ERROR",
                     "thread": "crmeb-scheduled-task-pool-3",
                     "class": "c.z.a.task.integral.IntegralFrozenTask",
-                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException:
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException
 ### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
 ### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-08-30 17:17:24.140",
                     "level": "ERROR",
                     "thread": "crmeb-scheduled-task-pool-1",
                     "class": "c.zbkj.admin.task.order.OrderReceiptTask",
-                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException:
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException
 ### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
 ### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-08-30 17:17:24.142",
                     "level": "ERROR",
                     "thread": "crmeb-scheduled-task-pool-5",
                     "class": "c.z.admin.task.order.OrderCompleteTask",
-                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException:
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException
 ### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
 ### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-08-30 17:17:24.142",
                     "level": "ERROR",
                     "thread": "crmeb-scheduled-task-pool-2",
                     "class": "c.z.admin.task.coupon.CouponOverdueTask",
-                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException:
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException
 ### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
 ### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-08-30 17:21:35.550",
@@ -829,7 +829,7 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -878,7 +878,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-11",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -927,7 +927,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-14",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -976,7 +976,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-2",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1025,7 +1025,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-9",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1074,7 +1074,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-20",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1123,7 +1123,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-3",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1172,7 +1172,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-13",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1221,7 +1221,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-15",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1270,7 +1270,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-16",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1319,7 +1319,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-12",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1368,7 +1368,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-25",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1417,7 +1417,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-2",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1466,7 +1466,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-7",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1515,7 +1515,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-8",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1564,7 +1564,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-9",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1613,7 +1613,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-19",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1662,7 +1662,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-24",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1711,7 +1711,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-26",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1760,7 +1760,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-30",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1809,7 +1809,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-5",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1858,7 +1858,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-6",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1907,7 +1907,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-11",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1956,7 +1956,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2005,7 +2005,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2054,7 +2054,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-27",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2103,7 +2103,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-27",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "discard connection" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet successfully received from the server was 7,815 milliseconds ago.  The last packet sent successfully to the server was 4 milliseconds ago.
@@ -2131,7 +2131,7 @@ The last packet successfully received from the server was 7,815 milliseconds ago
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
 	at com.zbkj.service.service.impl.StorePinkServiceImpl$$EnhancerBySpringCGLIB$$ef6d68e6.detectionStatus(<generated>)
-	at com.zbkj.admin.task.pink.PinkStatusChangeTask.init(PinkStatusChangeTask.java:39)
+	at pink.task.com.shf.admin.PinkStatusChangeTask.init(PinkStatusChangeTask.java:39)
 	at sun.reflect.GeneratedMethodAccessor386.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
@@ -2158,4 +2158,4 @@ Caused by: java.io.EOFException: Can not read response from server. Expected to 
                     "message": "PinkStatusChange | msg : Could not open JDBC Connection for transaction; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet successfully received from the server was 7,815 milliseconds ago.  The last packet sent successfully to the server was 4 milliseconds ago." }
-                    
+

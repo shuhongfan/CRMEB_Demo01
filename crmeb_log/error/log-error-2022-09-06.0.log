@@ -5,7 +5,7 @@
                     "thread": "crmeb-scheduled-task-pool-6",
                     "class": "c.zbkj.admin.task.order.OrderCancelTask",
                     "message": "OrderCancelTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.248",
@@ -13,7 +13,7 @@
                     "thread": "crmeb-scheduled-task-pool-5",
                     "class": "c.zbkj.admin.task.order.OrderReceiptTask",
                     "message": "OrderReceiptTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.245",
@@ -21,7 +21,7 @@
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -69,7 +69,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -117,7 +117,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "crmeb-scheduled-task-pool-13",
                     "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
                     "message": "AsyncWeChatProgramTempMessage.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.586",
@@ -125,7 +125,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "crmeb-scheduled-task-pool-9",
                     "class": "c.z.admin.task.order.OrderCompleteTask",
                     "message": "OrderCompleteTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.596",
@@ -133,7 +133,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "crmeb-scheduled-task-pool-23",
                     "class": "c.z.admin.task.order.OrderPaySuccessTask",
                     "message": "OrderPaySuccessTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.604",
@@ -141,7 +141,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "crmeb-scheduled-task-pool-20",
                     "class": "c.zbkj.admin.task.order.OrderRefundTask",
                     "message": "OrderRefundTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.605",
@@ -149,7 +149,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "crmeb-scheduled-task-pool-15",
                     "class": "c.z.admin.task.order.OrderAutoCancelTask",
                     "message": "OrderAutoCancelTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.606",
@@ -157,7 +157,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "crmeb-scheduled-task-pool-29",
                     "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
                     "message": "AsyncWeChatPublicTempMessage.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.611",
@@ -165,7 +165,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "crmeb-scheduled-task-pool-11",
                     "class": "c.z.admin.task.product.ProductStockTask",
                     "message": "OrderTakeByUser.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 08:50:15.769",
@@ -173,7 +173,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -221,7 +221,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -269,7 +269,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -317,7 +317,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -365,7 +365,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -413,7 +413,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -461,7 +461,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "Druid-ConnectionPool-Create-802435370",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "create connection SQLException, url: jdbc:mysql://192.168.120.20:3307/Crmeb?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8, errorCode 0, state 08S01" }
-                    
+
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -509,7 +509,7 @@ Caused by: java.net.SocketException: Network is unreachable: connect
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -558,7 +558,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-6",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -607,7 +607,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-8",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -656,7 +656,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-14",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -705,7 +705,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -754,7 +754,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-5",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -803,7 +803,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-11",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -852,7 +852,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-7",
                     "class": "c.z.service.service.impl.SmsServiceImpl",
                     "message": "一号通平台接口接口请求失败:没有此账号" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 16:58:43.059",
@@ -877,7 +877,7 @@ Action:
 
 Consider defining a bean of type 'com.alipay.api.AlipayClient' in your configuration.
 " }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 17:03:32.341",
@@ -902,7 +902,7 @@ Action:
 
 Consider defining a bean of type 'com.alipay.api.AlipayClient' in your configuration.
 " }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 17:05:45.146",
@@ -927,7 +927,7 @@ Action:
 
 Consider defining a bean of type 'com.alipay.api.AlipayClient' in your configuration.
 " }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 18:18:28.373",
@@ -935,7 +935,7 @@ Consider defining a bean of type 'com.alipay.api.AlipayClient' in your configura
                     "thread": "crmeb-scheduled-task-pool-1",
                     "class": "c.z.admin.task.order.OrderAutoCancelTask",
                     "message": "OrderAutoCancelTask.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 19:02:40.926",
@@ -943,7 +943,7 @@ Consider defining a bean of type 'com.alipay.api.AlipayClient' in your configura
                     "thread": "http-nio-8080-exec-2",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -992,7 +992,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-17",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1041,7 +1041,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "main",
                     "class": "o.springframework.boot.SpringApplication",
                     "message": "Application run failed" }
-                    
+
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callbackController': Unsatisfied dependency expressed through field 'callbackService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callbackServiceImpl': Unsatisfied dependency expressed through field 'rechargePayService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rechargePayServiceImpl': Unsatisfied dependency expressed through field 'userRechargeService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRechargeServiceImpl': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'storeOrderService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'storeOrderServiceImpl': Unsatisfied dependency expressed through field 'aliPayService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aliPayServiceImpl' defined in file [C:\CODE\crmeb_java\crmeb\crmeb-service\target\classes\com\zbkj\service\service\impl\AliPayServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zbkj.service.service.impl.AliPayServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
@@ -1062,7 +1062,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.zbkj.admin.CrmebAdminApplication.main(CrmebAdminApplication.java:35)
+	at com.shf.admin.CrmebAdminApplication.main(CrmebAdminApplication.java:35)
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callbackServiceImpl': Unsatisfied dependency expressed through field 'rechargePayService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rechargePayServiceImpl': Unsatisfied dependency expressed through field 'userRechargeService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRechargeServiceImpl': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'storeOrderService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'storeOrderServiceImpl': Unsatisfied dependency expressed through field 'aliPayService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aliPayServiceImpl' defined in file [C:\CODE\crmeb_java\crmeb\crmeb-service\target\classes\com\zbkj\service\service\impl\AliPayServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zbkj.service.service.impl.AliPayServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
@@ -1177,7 +1177,7 @@ Caused by: java.lang.NullPointerException: null
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1226,7 +1226,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-20",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1275,7 +1275,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-5",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1324,7 +1324,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-20",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1373,7 +1373,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-16",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1422,7 +1422,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-2",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1471,7 +1471,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-14",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1520,7 +1520,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-26",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1569,7 +1569,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-8",
                     "class": "sdk.biz.err",
                     "message": "ErrorScene^_^40004^_^ACQ.INVALID_PARAMETER^_^null^_^Windows 11^_^2022-09-06 19:33:13^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.refund&sign=OuH608r3orC4KrLwQxasKtGOph/1cb9zDuWvPP9fyif0w/j2SkZ+aiAjh2ktZVya2yjzPukUq+y8aHOE0Eq9K1r1oFzZ+SXubutIGTuISXbrvzztUZwEWxrf265m9Gr5XoXyzVxdXFuphvQaB6Ubw9LJIM1/AZAJyt9CW4yNXPLD1XVul4am0v0ifSO90O3ClrGrtMHBb5NVW6Clj90D0szdFtfkVxYdE4pUyq4HZPruHHTc9KQxsN6pzmWmhN28PKRLMKf4gjeWk7ZyTtIfVtEiM4l4nwbn7360HAkjRj2JtUlTmTlY0DwQ9PgwiV+PpwKG4qqHdJ4SO2QdudL07g==&version=1.0&app_id=2021000120607800&sign_type=RSA2&timestamp=2022-09-06 19:33:11^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"order62760166244637539811616","refund_amount":0.00,"refund_reason":"信息填错了，重新拍 "}^_^Body:{"alipay_trade_refund_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.INVALID_PARAMETER","sub_msg":"参数无效：退款金额不能小于等于0","refund_fee":"0.00","send_back_fee":"0.00"},"sign":"znto+eQ1tdj23MrZWy+u6x40b6ldcpLdf7eOOtypvaskLfQZ/MvQwYj7AnyBI9h+DwvumD2mBg1JwjisDppc//+aVjfNxpYHxlCJBWk9oh/Cp3qfXXk8VG9Mfn5ZWWqIrabiUViHYL8DtQAypgwCmF2pQpxLpMFiaxKztk4S7OoNA/RglV34DJve2N7eqT4D06uXW91IgDYrhs2f8Z24YJwcD9LgTr2belZ/K5xviTanQ3pcWHR6BgwHrfMNmkNNaRgeNWHgHeIuM+Pwol1BgJwc+h4Y6KKDud9jm2wuMDxv8mH14OoPN14gJBZOAQVhaKgfRYxatm1ZTrWt932G9g=="}^_^308ms,1068ms,23ms" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 19:44:58.663",
@@ -1577,7 +1577,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1626,7 +1626,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-3",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1675,7 +1675,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-7",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1724,7 +1724,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-4",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1773,7 +1773,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-9",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1822,7 +1822,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-25",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1871,7 +1871,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-13",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1920,7 +1920,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-3",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -1969,7 +1969,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-22",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2018,7 +2018,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2067,7 +2067,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-21",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2116,7 +2116,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-30",
                     "class": "c.z.service.service.impl.SmsServiceImpl",
                     "message": "一号通平台接口接口请求失败:没有此账号" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 21:41:50.305",
@@ -2124,7 +2124,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-27",
                     "class": "c.z.service.service.impl.SmsServiceImpl",
                     "message": "一号通平台接口接口请求失败:没有此账号" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 21:46:44.146",
@@ -2132,7 +2132,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-3",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2181,7 +2181,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-30",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2230,7 +2230,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-11",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2279,7 +2279,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-29",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2328,7 +2328,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-18",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2377,7 +2377,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-6",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2426,7 +2426,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-4",
                     "class": "c.z.s.service.impl.OrderTaskServiceImpl",
                     "message": "订单自动完成：订单记录最后一条不是收货状态，orderId = 16" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 22:44:27.831",
@@ -2434,7 +2434,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-13",
                     "class": "sdk.biz.err",
                     "message": "ErrorScene^_^40004^_^ACQ.INVALID_PARAMETER^_^null^_^Windows 11^_^2022-09-06 22:44:27^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.refund&sign=faXU8yoc+LpA1AgXfR2qBbmqamfo5P+ts7CYlnCdrclV5+MC9LNBE0f8Xz1zj6Dh/vK7yp9+7gBrIujOZkmNmGlMTODRlpQ1woTtZToUOORUOaMmCQ9KAuAlDAJz+pVgGE3tp/ejDKwZZCmLOjK8f6d3ruUAmmuKAB6SkNFIuCRUmi4VuysUoudOeNHNR3J3dUqGXPZKcsrqSAIndLfloQUPA9ToimqvqUbqqEG1j6J3OE8xcoK+L2kL23Mx80hyVAuNmX2nlCrqVGepriTux/Sm7mkDNYYcIWjZgUb+XgEL+Ce/FE26osphgcJ+kVgQEOgMKWkrBv3twK2SSm/ipA==&version=1.0&app_id=2021000120607800&sign_type=RSA2&timestamp=2022-09-06 22:44:26^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"order36679166247536957884085","refund_amount":0.00,"refund_reason":"收货地址填错了"}^_^Body:{"alipay_trade_refund_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.INVALID_PARAMETER","sub_msg":"参数无效：退款金额不能小于等于0","refund_fee":"0.00","send_back_fee":"0.00"},"sign":"znto+eQ1tdj23MrZWy+u6x40b6ldcpLdf7eOOtypvaskLfQZ/MvQwYj7AnyBI9h+DwvumD2mBg1JwjisDppc//+aVjfNxpYHxlCJBWk9oh/Cp3qfXXk8VG9Mfn5ZWWqIrabiUViHYL8DtQAypgwCmF2pQpxLpMFiaxKztk4S7OoNA/RglV34DJve2N7eqT4D06uXW91IgDYrhs2f8Z24YJwcD9LgTr2belZ/K5xviTanQ3pcWHR6BgwHrfMNmkNNaRgeNWHgHeIuM+Pwol1BgJwc+h4Y6KKDud9jm2wuMDxv8mH14OoPN14gJBZOAQVhaKgfRYxatm1ZTrWt932G9g=="}^_^20ms,1716ms,25ms" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 22:44:52.022",
@@ -2442,7 +2442,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-11",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2491,7 +2491,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-5",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2540,7 +2540,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-27",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2589,7 +2589,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-15",
                     "class": "sdk.biz.err",
                     "message": "ErrorScene^_^40004^_^ACQ.INVALID_PARAMETER^_^null^_^Windows 11^_^2022-09-06 22:48:21^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.refund&sign=DE/tAVgMSd0brc8EMI5K8Q3BqEPWhi4zEZ1yk9y1Eg8vO4YQGKxuPe+Rb2iJA4yiNbR/Edk5vRVe7W3jKoztB0X/RF8z20CbW1HPRPHBl1sfqAZ6Y8BK5wvwwCwryJWwj6oHo6nWE+I0GasIk0d2AuItZA87MjxC1Jefac46z6naeIRY6zH5GwIqX+dztl9qP22VnveHqvYzVSynInpKecY0GJyvEjb2eBn7/0yzSMLUCtmehxrQEuYNwbT9fLxafOnNhZITf8z11rz4B0iulRojo4cnWnrdSyTrdR07+dmtKN5/7CU9cG5B2tyCVrdqQSBjeUMX05sTuvZjObYvLg==&version=1.0&app_id=2021000120607800&sign_type=RSA2&timestamp=2022-09-06 22:48:17^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"order41764166247350427980610","refund_amount":0.00,"refund_reason":"收货地址填错了"}^_^Body:{"alipay_trade_refund_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.INVALID_PARAMETER","sub_msg":"参数无效：退款金额不能小于等于0","refund_fee":"0.00","send_back_fee":"0.00"},"sign":"znto+eQ1tdj23MrZWy+u6x40b6ldcpLdf7eOOtypvaskLfQZ/MvQwYj7AnyBI9h+DwvumD2mBg1JwjisDppc//+aVjfNxpYHxlCJBWk9oh/Cp3qfXXk8VG9Mfn5ZWWqIrabiUViHYL8DtQAypgwCmF2pQpxLpMFiaxKztk4S7OoNA/RglV34DJve2N7eqT4D06uXW91IgDYrhs2f8Z24YJwcD9LgTr2belZ/K5xviTanQ3pcWHR6BgwHrfMNmkNNaRgeNWHgHeIuM+Pwol1BgJwc+h4Y6KKDud9jm2wuMDxv8mH14OoPN14gJBZOAQVhaKgfRYxatm1ZTrWt932G9g=="}^_^10ms,4429ms,14ms" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 22:49:02.013",
@@ -2597,7 +2597,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-23",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2646,7 +2646,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-23",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2695,7 +2695,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-12",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2744,7 +2744,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-29",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2793,7 +2793,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-19",
                     "class": "sdk.biz.err",
                     "message": "ErrorScene^_^40004^_^ACQ.INVALID_PARAMETER^_^null^_^Windows 11^_^2022-09-06 22:54:56^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.refund&sign=VJ+A3F+jqBaHygpT2vd5dJvh2dside1iUYrY14K3XgTWtjJDw2ClxCmAgkOtE08EidSAzvr6PPpVDv1H9GrUrFg6lv6knJTGETIdtSWGpbhfoiILR39pkx0CnDIuV8CLcGr4VHr+mhFC+BO8jd9QQGVbMsxCm23puPEqcSFX5y31qXlpLr3jnT3uSCT2PKuHJnx688WpK0hUtY7OXqQb2LrhEJEh86QrNnsIMg0kCOkiKvcIs645+DGQ7wnt+60Uq/3h88I035gqre/tMvFwvvsFHqkGzx4JD8hjnAu5zhOVwxxJpgC0JnbggO1+2+ToMUL2/TP941rk6AMgygNuTg==&version=1.0&app_id=2021000120607800&sign_type=RSA2&timestamp=2022-09-06 22:54:54^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"order31544166247364970215844","refund_amount":0.00,"refund_reason":"收货地址填错了"}^_^Body:{"alipay_trade_refund_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.INVALID_PARAMETER","sub_msg":"参数无效：退款金额不能小于等于0","refund_fee":"0.00","send_back_fee":"0.00"},"sign":"znto+eQ1tdj23MrZWy+u6x40b6ldcpLdf7eOOtypvaskLfQZ/MvQwYj7AnyBI9h+DwvumD2mBg1JwjisDppc//+aVjfNxpYHxlCJBWk9oh/Cp3qfXXk8VG9Mfn5ZWWqIrabiUViHYL8DtQAypgwCmF2pQpxLpMFiaxKztk4S7OoNA/RglV34DJve2N7eqT4D06uXW91IgDYrhs2f8Z24YJwcD9LgTr2belZ/K5xviTanQ3pcWHR6BgwHrfMNmkNNaRgeNWHgHeIuM+Pwol1BgJwc+h4Y6KKDud9jm2wuMDxv8mH14OoPN14gJBZOAQVhaKgfRYxatm1ZTrWt932G9g=="}^_^310ms,1470ms,226ms" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 22:57:35.946",
@@ -2801,7 +2801,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-5",
                     "class": "c.z.s.service.impl.OrderTaskServiceImpl",
                     "message": "订单自动完成：订单记录最后一条不是收货状态，orderId = 16" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 22:58:12.063",
@@ -2809,7 +2809,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2858,7 +2858,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-15",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2907,7 +2907,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-8",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -2956,7 +2956,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "http-nio-8080-exec-24",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
                     "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
+
 org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
 	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
 	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
@@ -3005,7 +3005,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-23",
                     "class": "c.z.admin.task.order.OrderCompleteTask",
                     "message": "OrderCompleteTask.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.009",
@@ -3013,7 +3013,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-6",
                     "class": "c.zbkj.admin.task.order.OrderRefundTask",
                     "message": "OrderRefundTask.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.009",
@@ -3021,7 +3021,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-28",
                     "class": "c.z.admin.task.order.OrderAutoCancelTask",
                     "message": "OrderAutoCancelTask.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.009",
@@ -3029,7 +3029,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-16",
                     "class": "c.zbkj.admin.task.order.OrderReceiptTask",
                     "message": "OrderReceiptTask.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.010",
@@ -3037,7 +3037,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-8",
                     "class": "c.zbkj.admin.task.order.OrderCancelTask",
                     "message": "OrderCancelTask.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.010",
@@ -3045,7 +3045,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-10",
                     "class": "c.z.admin.task.order.OrderPaySuccessTask",
                     "message": "OrderPaySuccessTask.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.011",
@@ -3053,7 +3053,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-5",
                     "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
                     "message": "AsyncWeChatPublicTempMessage.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.011",
@@ -3061,7 +3061,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-14",
                     "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
                     "message": "AsyncWeChatProgramTempMessage.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.018",
@@ -3069,7 +3069,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-19",
                     "class": "c.z.admin.task.product.ProductStockTask",
                     "message": "OrderTakeByUser.task | msg : java.net.SocketException: Connection reset; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset" }
-                    
+
 {
                     "app": "Crmeb",
                     "timestamp":"2022-09-06 23:10:55.244",
@@ -3077,7 +3077,7 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
                     "thread": "crmeb-scheduled-task-pool-17",
                     "class": "com.alibaba.druid.pool.DruidDataSource",
                     "message": "discard connection" }
-                    
+
 java.sql.SQLException: Could not retrieve transation read-only status server
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
@@ -3121,7 +3121,7 @@ java.sql.SQLException: Could not retrieve transation read-only status server
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
 	at com.zbkj.service.service.impl.StoreCouponUserServiceImpl$$EnhancerBySpringCGLIB$$b81f06e6.overdueTask(<generated>)
-	at com.zbkj.admin.task.coupon.CouponOverdueTask.init(CouponOverdueTask.java:40)
+	at coupon.task.com.shf.admin.CouponOverdueTask.init(CouponOverdueTask.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3172,7 +3172,7 @@ Caused by: java.net.SocketTimeoutException: Read timed out
                     "level": "ERROR",
                     "thread": "crmeb-scheduled-task-pool-17",
                     "class": "c.z.admin.task.coupon.CouponOverdueTask",
-                    "message": "CouponOverdueTask.task | msg : 
+                    "message": "CouponOverdueTask.task | msg :
 ### Error querying database.  Cause: java.sql.SQLException: Could not retrieve transation read-only status server
 ### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
 ### The error may involve defaultParameterMap
@@ -3180,4 +3180,4 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 ### SQL: SELECT  id,coupon_id,cid,uid,name,money,min_price,type,status,create_time,update_time,start_time,end_time,use_time,use_type,primary_key  FROM eb_store_coupon_user     WHERE (status = ?)
 ### Cause: java.sql.SQLException: Could not retrieve transation read-only status server
 ; Could not retrieve transation read-only status server; nested exception is java.sql.SQLException: Could not retrieve transation read-only status server" }
-                    
+
