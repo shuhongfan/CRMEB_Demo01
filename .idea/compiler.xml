@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FanGouShop-API-Admin" />
+        <module name="FanGouShop-API-Front" />
+        <module name="FanGouShop-API-Common" />
+        <module name="FanGouShop-API-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fangou" target="1.8" />
+      <module name="FanGouShop-API-Admin" target="1.8" />
+      <module name="FanGouShop-API-Common" target="1.8" />
+      <module name="FanGouShop-API-Front" target="1.8" />
+      <module name="FanGouShop-API-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FanGouShop-API-Admin" options="-verbose -parameters" />
+      <module name="FanGouShop-API-Common" options="-verbose -parameters" />
+      <module name="FanGouShop-API-Front" options="-verbose -parameters" />
+      <module name="FanGouShop-API-service" options="-verbose -parameters" />
+      <module name="fangou" options="" />
+    </option>
+  </component>
+</project>
