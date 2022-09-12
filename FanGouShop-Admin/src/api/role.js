@@ -1,18 +1,9 @@
-// +----------------------------------------------------------------------
-// | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2016~2021 https://www.crmeb.com All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
-// +----------------------------------------------------------------------
-// | Author: CRMEB Team <admin@crmeb.com>
-// +----------------------------------------------------------------------
 
 import request from '@/utils/request'
 
 /**
  * 新增
- * @param 
+ * @param
  */
 export function addRole(pram) {
   const data = {
@@ -31,7 +22,7 @@ export function addRole(pram) {
 
 /**
  * 删除
- * @param 
+ * @param
  */
 export function delRole(pram) {
   const data = {
@@ -46,7 +37,7 @@ export function delRole(pram) {
 
 /**
  * 详情
- * @param 
+ * @param
  */
 export function getInfo(pram) {
   return request({
@@ -57,7 +48,7 @@ export function getInfo(pram) {
 
 /**
  * 分页列表
- * @param 
+ * @param
  */
 export function getRoleList(pram) {
   const data = {
@@ -79,7 +70,7 @@ export function getRoleList(pram) {
 
 /**
  * 修改
- * @param 
+ * @param
  */
 export function updateRole(pram) {
   const data = {
@@ -98,7 +89,7 @@ export function updateRole(pram) {
 
 /**
  * 修改身份状态
- * @param 
+ * @param
  */
 export function updateRoleStatus(pram) {
   return request({
@@ -110,7 +101,7 @@ export function updateRoleStatus(pram) {
 
 /**
  * 缓存菜单
- * @param 
+ * @param
  */
  export function menuCacheList(pram) {
   return request({

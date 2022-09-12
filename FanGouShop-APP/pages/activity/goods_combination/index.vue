@@ -12,14 +12,15 @@
 						:duration="duration" indicator-color="rgba(255,255,255,0.6)" indicator-active-color="#fff">
 						<block v-for="(item,index) in bannerList" :key="index">
 							<swiper-item>
-								<navigator :url='item.value' class='slide-navigator acea-row row-between-wrapper'
+								<navigator :url='item.image' class='slide-navigator acea-row row-between-wrapper'
 									hover-class='none'>
-									<image :src="item.value" class="slide-image" lazy-load></image>
+									<image :src="item.image" class="slide-image" lazy-load></image>
 								</navigator>
 							</swiper-item>
 						</block>
 					</swiper>
 				</view>
+
 				<view class="nav acea-row row-between-wrapper">
 					<image src="../static/zuo.png"></image>
 					<view class="title acea-row row-center">
@@ -67,7 +68,7 @@
 			<home></home>
 		</div>
 	</div>
-	
+
 </template>
 
 <script>
@@ -219,11 +220,11 @@
 		}
 	}
 	.activity_pic {
-	
+
 		.picture {
 			display: inline-table;
 		}
-	
+
 		.avatar {
 			width: 38rpx;
 			height: 38rpx;

@@ -1,12 +1,3 @@
-// +----------------------------------------------------------------------
-// | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2016~2021 https://www.crmeb.com All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
-// +----------------------------------------------------------------------
-// | Author: CRMEB Team <admin@crmeb.com>
-// +----------------------------------------------------------------------
 
 /**
  * 通用js方法封装处理
@@ -121,13 +112,13 @@ export function mergeRecursive(source, target) {
  * @param {*} parentId 父节点字段 默认 'parentId'
  * @param {*} children 孩子节点字段 默认 'children'
  */
-export function handleTree(data, id, parentId, children) {  
+export function handleTree(data, id, parentId, children) {
 	let config = {
 		id: id || 'id',
 		parentId: parentId || 'parentId',
 		childrenList: children || 'children'
 	};
-	
+
 	var childrenListMap = {};
 	var nodeIds = {};
 	var tree = [];
@@ -167,11 +158,11 @@ export function handleTree(data, id, parentId, children) {
 
 /**
  * 路由数据遍历
- * 
+ *
  */
  export function formatRoutes(routerArr){
-	let arr = [],obj = {}; 
-	routerArr.forEach(tmp => {   
+	let arr = [],obj = {};
+	routerArr.forEach(tmp => {
 		obj = {
 			id:tmp.id,
 			pid:tmp.pid,

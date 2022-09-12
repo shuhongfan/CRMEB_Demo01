@@ -226,6 +226,7 @@
 				});
 				Routine.getUserProfile()
 					.then(res => {
+            console.log(res)
 						Routine.getCode()
 							.then(code => {
 								self.getWxUser(code, res);
@@ -347,7 +348,7 @@
 		background: #fff;
 		height: 100%;
 	}
-    
+
 	.page {
 		background: #fff;
 		height: 100%;

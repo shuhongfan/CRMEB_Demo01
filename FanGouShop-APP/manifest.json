@@ -51,7 +51,13 @@
                 "idfa" : false
             },
             /* SDK配置 */
-            "sdkConfigs" : {},
+            "sdkConfigs" : {
+                "geolocation" : {
+                    "system" : {
+                        "__platform__" : [ "ios", "android" ]
+                    }
+                }
+            },
             "icons" : {}
         }
     },

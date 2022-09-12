@@ -111,7 +111,7 @@
 							<!-- #endif -->
 						</view>
 					</view>
-					<image src="/static/images/support.png" alt="" class='support'>
+<!--					<image src="/static/images/support.png" alt="" class='support'>-->
 					<view class="uni-p-b-98"></view>
 				</view>
 
@@ -300,7 +300,7 @@
 				})
 			},
 			/**
-			 * 
+			 *
 			 * 获取个人中心图标
 			 */
 			getMyMenus: function() {
@@ -526,7 +526,7 @@
 				padding: 30rpx 16rpx;
 				position: relative;
 				z-index: 11;
-                
+
 				.order-hd {
 					justify-content: space-between;
 					font-size: 30rpx;

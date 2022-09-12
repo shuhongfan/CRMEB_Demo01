@@ -78,7 +78,10 @@ public class AdminLoginServiceImpl implements AdminLoginService {
         Authentication authentication = null;
         // 该方法会去调用UserDetailsServiceImpl.loadUserByUsername
         try {
-            authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(systemAdminLoginRequest.getAccount(), systemAdminLoginRequest.getPwd()));
+            authentication = authenticationManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(
+                            systemAdminLoginRequest.getAccount(),
+                            systemAdminLoginRequest.getPwd()));
         } catch (AuthenticationException e) {
             if (e instanceof BadCredentialsException) {
                 throw new CrmebException("用户不存在或密码错误");

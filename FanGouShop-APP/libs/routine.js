@@ -3,21 +3,21 @@ import { checkLogin } from './login';
 import { login } from '../api/public';
 import Cache from '../utils/cache';
 import { STATE_R_KEY, USER_INFO, EXPIRES_TIME, LOGIN_STATUS} from './../config/cache';
-class Routine 
+class Routine
 {
-	
-	constructor() 
+
+	constructor()
 	{
 	    this.scopeUserInfo = 'scope.userInfo';
 	}
-	
+
 	async getUserCode(){
 		let isAuth = await this.isAuth(), code = '' ;
 		if(isAuth)
 			code = await this.getCode();
 		return code;
 	}
-	
+
 	/**
 	 * 获取用户信息
 	 */
@@ -37,7 +37,7 @@ class Routine
 			})
 		})
 	}
-	
+
 	/**
 	 * 获取用户信息
 	 */
@@ -61,7 +61,7 @@ class Routine
 			})
 		})
 	}
-	
+
 	async getCode(){
 		let provider = await this.getProvider();
 		return new Promise((resolve,reject)=>{
@@ -77,7 +77,7 @@ class Routine
 			})
 		})
 	}
-	
+
 	/**
 	 * 获取服务供应商
 	 */
@@ -95,7 +95,7 @@ class Routine
 			});
 		});
 	}
-	
+
 	/**
 	 * 是否授权
 	 */
@@ -123,6 +123,7 @@ class Routine
 	{
 		return new Promise((resolve, reject)=>{
 			login(code,data).then(res=>{
+				console.log(res)
 				if(res.data.type==='login'){
 					store.commit('LOGIN', {
 						token: res.data.token
