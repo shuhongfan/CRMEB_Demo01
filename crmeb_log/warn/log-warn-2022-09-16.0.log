@@ -1,0 +1,8 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:49.287",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.shf.admin]' package. Please check your configuration." }
+                    

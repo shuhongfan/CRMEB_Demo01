@@ -1,0 +1,1640 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:45.181",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "c.s.admin.FanGouShopAPIAdminApplication",
+                    "message": "Starting FanGouShopAPIAdminApplication on shuhongfan with PID 1956 (C:\CODE\crmeb_java\FanGouShop-API\FanGouShop-API-Admin\target\classes started by shf in C:\CODE\crmeb_java)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:45.185",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "c.s.admin.FanGouShopAPIAdminApplication",
+                    "message": "No active profile set, falling back to default profiles: default" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:49.517",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                    "message": "Multiple Spring Data modules found, entering strict repository configuration mode!" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:49.520",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                    "message": "Bootstrapping Spring Data Redis repositories in DEFAULT mode." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:49.579",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                    "message": "Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.328",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                    "message": "Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.336",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                    "message": "Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.341",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                    "message": "Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@ac5d35' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.345",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                    "message": "Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.357",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                    "message": "Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.916",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.b.w.embedded.tomcat.TomcatWebServer",
+                    "message": "Tomcat initialized with port(s): 8080 (http)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.930",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.apache.coyote.http11.Http11NioProtocol",
+                    "message": "Initializing ProtocolHandler ["http-nio-8080"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.931",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "org.apache.catalina.core.StandardService",
+                    "message": "Starting service [Tomcat]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:50.932",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "org.apache.catalina.core.StandardEngine",
+                    "message": "Starting Servlet engine: [Apache Tomcat/9.0.33]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:51.320",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "org.apache.jasper.servlet.TldScanner",
+                    "message": "At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:51.326",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.a.c.c.C.[Tomcat].[localhost].[/]",
+                    "message": "Initializing Spring embedded WebApplicationContext" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:51.327",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.web.context.ContextLoader",
+                    "message": "Root WebApplicationContext: initialization completed in 6082 ms" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:58.352",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.b.a.e.web.EndpointLinksResolver",
+                    "message": "Exposing 2 endpoint(s) beneath base path '/actuator'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:58.474",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.PropertySourcedRequestMappingHandlerMapping",
+                    "message": "Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:58.513",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.s.concurrent.ThreadPoolTaskExecutor",
+                    "message": "Initializing ExecutorService" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:58.516",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.s.concurrent.ThreadPoolTaskExecutor",
+                    "message": "Initializing ExecutorService 'taskExecutor'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:58.702",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.s.web.DefaultSecurityFilterChain",
+                    "message": "Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9b5e62, org.springframework.security.web.context.SecurityContextPersistenceFilter@19786b1, org.springframework.security.web.header.HeaderWriterFilter@1ae82da, org.springframework.web.filter.CorsFilter@132dec4, org.springframework.web.filter.CorsFilter@132dec4, org.springframework.web.filter.CorsFilter@132dec4, org.springframework.security.web.authentication.logout.LogoutFilter@1fca3cc, com.shf.admin.filter.JwtAuthenticationTokenFilter@13aeab2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f7ae05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c80149, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@826498, org.springframework.security.web.session.SessionManagementFilter@1f9b95a, org.springframework.security.web.access.ExceptionTranslationFilter@944c7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d42275]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.647",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.p.DocumentationPluginsBootstrapper",
+                    "message": "Context refreshed" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.662",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.p.DocumentationPluginsBootstrapper",
+                    "message": "Found 2 custom documentation plugin(s)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.710",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.s.ApiListingReferenceScanner",
+                    "message": "Scanning for api listing references" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.928",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.937",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getByIdsUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.947",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.956",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.978",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:29:59.981",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.005",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.008",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.029",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.032",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.049",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.085",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updatePhoneUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.098",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_4" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.121",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.127",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_5" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.131",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.136",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.138",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_4" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.142",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_6" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.145",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_7" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.155",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.194",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_8" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.207",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_4" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.214",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.216",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_5" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.219",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_4" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.237",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_9" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.242",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_5" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.247",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_4" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.249",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_6" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.250",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.279",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_10" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.291",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_5" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.292",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingPOST_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.304",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_11" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.316",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_5" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.330",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_12" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.390",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_6" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.413",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_13" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.422",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_6" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.449",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_14" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.466",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_7" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.473",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_6" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.474",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_7" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.477",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_7" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.484",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_15" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.487",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_8" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.489",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_7" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.490",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_8" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.495",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_16" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.497",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_9" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.500",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_8" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.502",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_8" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.504",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_9" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.519",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_17" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.522",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_10" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.525",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_9" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.527",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_9" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.528",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingPOST_3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.543",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_10" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.549",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_18" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.552",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_11" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.554",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_10" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.555",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_10" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.557",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingPOST_4" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.559",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_11" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.563",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_19" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.568",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_12" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.571",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_11" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.575",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_11" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.578",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_12" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.587",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_20" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.589",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_13" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.593",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_12" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.595",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_12" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.605",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_21" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.610",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListTreeUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.614",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_14" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.620",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_13" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.622",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingPOST_5" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.630",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_15" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.640",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_22" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.642",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_16" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.643",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_13" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.644",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_14" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.646",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_13" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.650",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_23" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.651",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_17" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.653",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_14" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.654",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_15" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.655",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_14" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.661",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_24" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.663",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_18" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.665",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_15" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.667",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_16" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.672",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.680",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_25" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.683",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_19" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.684",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_17" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.689",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_26" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.692",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_20" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.696",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_18" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.699",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_15" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.705",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_27" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.708",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_21" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.711",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_16" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.712",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_19" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.713",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.716",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_16" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.722",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_28" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.735",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_22" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.738",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_17" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.739",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_20" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.741",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingGET_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.743",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_17" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.748",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_29" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.751",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_23" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.753",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_18" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.754",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_21" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.755",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingGET_3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.757",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingPOST_2" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.759",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_30" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.761",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_19" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.762",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_22" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.807",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_31" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.810",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_24" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.821",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_23" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.833",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_32" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.838",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_24" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.839",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingPOST_6" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.841",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_18" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.844",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_33" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.846",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_25" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.849",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_20" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.850",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_25" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.855",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.859",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_34" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.861",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: balanceUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.868",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_35" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.870",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_19" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.873",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_36" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.874",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_26" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.876",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_21" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.877",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_26" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.889",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_20" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.891",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.907",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: deleteUsingGET_21" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.943",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: getListUsingGET_37" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.949",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_27" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.954",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: infoUsingGET_28" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.959",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: saveUsingPOST_22" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.962",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_27" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.966",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateUsingPOST_28" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.967",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: updateStatusUsingGET_4" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:00.999",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.s.ApiListingReferenceScanner",
+                    "message": "Scanning for api listing references" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.030",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: webHookUsingGET_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.033",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "s.d.s.w.r.o.CachingOperationNameGenerator",
+                    "message": "Generating unique operation named: webHookUsingPOST_1" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.045",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.s.concurrent.ThreadPoolTaskScheduler",
+                    "message": "Initializing ExecutorService" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.056",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-14",
+                    "class": "c.s.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "---AsyncWeChatPublicTempMessage task------produce Data with fixed rate task: Execution Time - 20220916" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.056",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.s.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "---AsyncWeChatProgramTempMessage task------produce Data with fixed rate task: Execution Time - 20220916" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.056",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.shf.admin.task.order.OrderReceiptTask",
+                    "message": "---BrokerageFrozenTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.057",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.shf.admin.task.order.OrderReceiptTask",
+                    "message": "---OrderReceiptTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.056",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-10",
+                    "class": "c.s.admin.task.order.OrderPaySuccessTask",
+                    "message": "---OrderPaySuccessTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.057",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.s.admin.task.order.OrderAutoCancelTask",
+                    "message": "---OrderAutoCancelTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.056",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-12",
+                    "class": "c.s.admin.task.product.ProductStockTask",
+                    "message": "---OrderTakeByUser task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.057",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.s.admin.task.coupon.CouponOverdueTask",
+                    "message": "---CouponOverdueTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.057",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.s.a.task.integral.IntegralFrozenTask",
+                    "message": "---IntegralFrozenTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.056",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.shf.admin.task.order.OrderCompleteTask",
+                    "message": "---OrderAutoCompleteTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.057",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-9",
+                    "class": "c.s.admin.task.order.OrderPaySuccessTask",
+                    "message": "---OrderPayStatusTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.056",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "com.shf.admin.task.order.OrderRefundTask",
+                    "message": "---OrderRefundTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.057",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-6",
+                    "class": "com.shf.admin.task.order.OrderCancelTask",
+                    "message": "---OrderCancelTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.057",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.shf.admin.task.order.OrderCompleteTask",
+                    "message": "---OrderCompleteTask task------produce Data with fixed rate task: Execution Time - Fri Sep 16 10:30:01 CST 2022" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.061",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.apache.coyote.http11.Http11NioProtocol",
+                    "message": "Starting ProtocolHandler ["http-nio-8080"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.145",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "o.s.b.w.embedded.tomcat.TomcatWebServer",
+                    "message": "Tomcat started on port(s): 8080 (http) with context path ''" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.152",
+                    "level": "INFO",
+                    "thread": "main",
+                    "class": "c.s.admin.FanGouShopAPIAdminApplication",
+                    "message": "Started FanGouShopAPIAdminApplication in 16.824 seconds (JVM running for 17.745)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:01.259",
+                    "level": "INFO",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "com.alibaba.druid.pool.DruidDataSource",
+                    "message": "{dataSource-1} inited" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:05.434",
+                    "level": "INFO",
+                    "thread": "Druid-ConnectionPool-Create-18546319",
+                    "class": "c.a.druid.pool.DruidAbstractDataSource",
+                    "message": "{dataSource-1} failContinuous is true" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:16.550",
+                    "level": "INFO",
+                    "thread": "SpringContextShutdownHook",
+                    "class": "o.s.s.concurrent.ThreadPoolTaskExecutor",
+                    "message": "Shutting down ExecutorService 'taskExecutor'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:16.572",
+                    "level": "INFO",
+                    "thread": "SpringContextShutdownHook",
+                    "class": "com.alibaba.druid.pool.DruidDataSource",
+                    "message": "{dataSource-1} closing ..." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 10:30:16.573",
+                    "level": "INFO",
+                    "thread": "SpringContextShutdownHook",
+                    "class": "com.alibaba.druid.pool.DruidDataSource",
+                    "message": "{dataSource-1} closed" }
+                    

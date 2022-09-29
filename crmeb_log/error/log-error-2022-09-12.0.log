@@ -1,0 +1,80 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.698",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.s.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.703",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "com.shf.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.702",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-6",
+                    "class": "c.s.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.706",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.s.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.708",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.s.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.710",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-16",
+                    "class": "c.s.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.712",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-24",
+                    "class": "c.shf.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.713",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.shf.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.714",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-30",
+                    "class": "c.s.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-12 08:08:56.719",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-17",
+                    "class": "com.shf.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : java.net.SocketException: Connection reset by peer: socket write error; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error" }
+                    
