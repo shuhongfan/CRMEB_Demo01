@@ -14,7 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fangou" target="1.8" />
+      <module name="FanGouShop-API" target="1.8" />
       <module name="FanGouShop-API-Admin" target="1.8" />
       <module name="FanGouShop-API-Common" target="1.8" />
       <module name="FanGouShop-API-Front" target="1.8" />
@@ -23,11 +23,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FanGouShop-API" options="" />
       <module name="FanGouShop-API-Admin" options="-verbose -parameters" />
       <module name="FanGouShop-API-Common" options="-verbose -parameters" />
       <module name="FanGouShop-API-Front" options="-verbose -parameters" />
       <module name="FanGouShop-API-service" options="-verbose -parameters" />
-      <module name="fangou" options="" />
     </option>
   </component>
 </project>
