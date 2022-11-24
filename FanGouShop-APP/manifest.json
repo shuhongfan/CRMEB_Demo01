@@ -124,7 +124,10 @@
         "usingComponents" : true
     },
     "mp-toutiao" : {
-        "usingComponents" : true
+        "usingComponents" : true,
+        "setting" : {
+            "urlCheck" : false
+        }
     },
     "h5" : {
         "devServer" : {
@@ -150,11 +153,16 @@
         "async" : {
             "timeout" : 200000
         },
-        "title" : "CRMEB"
+        "title" : "凡购商城"
     },
     "plus" : {
         "statusbar" : {
             "immersed" : true
+        }
+    },
+    "mp-qq" : {
+        "setting" : {
+            "urlCheck" : false
         }
     }
 }

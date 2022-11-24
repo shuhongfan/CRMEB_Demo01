@@ -68,9 +68,9 @@
             </div>
           </template>
         </el-table-column>
-        <el-table-column label="商品名称" 
-        prop="storeName" 
-        min-width="300" 
+        <el-table-column label="商品名称"
+        prop="storeName"
+        min-width="300"
         :show-overflow-tooltip="true">
         </el-table-column>
         <el-table-column
@@ -97,7 +97,7 @@
           min-width="70"
           align="center"
         />
-        
+
         <el-table-column
           label="添加时间"
           min-width="120"
@@ -112,7 +112,7 @@
           min-width="80"
           fixed="right"
         >
-          <template slot-scope="scope" 
+          <template slot-scope="scope"
           v-if="checkPermi(['admin:product:up','admin:product:down'])">
             <el-switch
               :disabled="Number(tableFrom.type) > 2"
@@ -235,6 +235,7 @@ export default {
     // 导出
     exports () {
       productExcelApi({cateId:this.tableFrom.cateId,keywords: this.tableFrom.keywords, type:this.tableFrom.type}).then((res) => {
+        console.log(res)
         window.location.href = res.fileName;
       })
     },
@@ -301,7 +302,7 @@ export default {
           row.isShow = !row.isShow
         })
     },
-   
+
   }
 }
 </script>

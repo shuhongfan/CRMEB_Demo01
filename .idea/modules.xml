@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FanGouShop.iml" filepath="$PROJECT_DIR$/.idea/FanGouShop.iml" />
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API.iml" />
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Admin/FanGouShop-API-Admin.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Admin/FanGouShop-API-Admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Common/FanGouShop-API-Common.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Common/FanGouShop-API-Common.iml" />
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Front/FanGouShop-API-Front.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Front/FanGouShop-API-Front.iml" />
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-service/FanGouShop-API-service.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-service/FanGouShop-API-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/crmeb_java.iml" filepath="$PROJECT_DIR$/.idea/crmeb_java.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,8 @@
+{
+                    "app": "FanGouShop-Admin",
+                    "timestamp":"2022-11-24 18:10:34.482",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.shf.admin]' package. Please check your configuration." }
+                    

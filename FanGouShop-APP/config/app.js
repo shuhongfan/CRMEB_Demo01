@@ -6,7 +6,7 @@ module.exports = {
 	// #ifdef MP
 		HTTP_REQUEST_URL: domain,
 	// #endif
-	HTTP_ADMIN_URL:'xxx.xxx.xxx', //PC后台的API请求地址，上传图片用
+	HTTP_ADMIN_URL: 'http://127.0.0.1:8080', //PC后台的API请求地址，上传图片用
 	// #ifdef H5
 		//H5接口是浏览器地址
 		// HTTP_REQUEST_URL: window.location.protocol+"//"+window.location.host,

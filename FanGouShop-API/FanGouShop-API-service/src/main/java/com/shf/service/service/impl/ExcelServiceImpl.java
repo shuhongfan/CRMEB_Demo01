@@ -1,6 +1,14 @@
 package com.shf.service.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
+import com.google.gson.Gson;
+import com.qiniu.common.QiniuException;
+import com.qiniu.http.Response;
+import com.qiniu.storage.Configuration;
+import com.qiniu.storage.Region;
+import com.qiniu.storage.UploadManager;
+import com.qiniu.storage.model.DefaultPutRet;
+import com.qiniu.util.Auth;
 import com.shf.common.config.CrmebConfig;
 import com.shf.common.page.CommonPage;
 import com.shf.common.constants.Constants;
@@ -20,29 +28,16 @@ import com.shf.service.service.*;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
 *  ExcelServiceImpl 接口实现
-*  +----------------------------------------------------------------------
- *  | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
- *  +----------------------------------------------------------------------
- *  | Copyright (c) 2016~2022 https://www.crmeb.com All rights reserved.
- *  +----------------------------------------------------------------------
- *  | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
- *  +----------------------------------------------------------------------
- *  | Author: CRMEB Team <admin@crmeb.com>
- *  +----------------------------------------------------------------------
 */
 @Service
 public class ExcelServiceImpl implements ExcelService {
-
     @Autowired
     private StoreProductService storeProductService;
 
@@ -111,7 +106,9 @@ public class ExcelServiceImpl implements ExcelService {
         aliasMap.put("giveIntegral", "返多少积分");
         aliasMap.put("addTime", "添加时间");
 
-        return ExportUtil.exportExecl(fileName, "砍价商品导出", voList, aliasMap);
+        String exportExecl = ExportUtil.exportExecl(fileName, "砍价商品导出", voList, aliasMap);
+        String fileToOss = UploadFileToOss(exportExecl,fileName);
+        return fileToOss;
     }
 
     /**
@@ -155,7 +152,9 @@ public class ExcelServiceImpl implements ExcelService {
         aliasMap.put("isShow", "商品状态");
         aliasMap.put("stopTime", "拼团结束时间");
 
-        return ExportUtil.exportExecl(fileName, "拼团商品导出", voList, aliasMap);
+        String exportExecl = ExportUtil.exportExecl(fileName, "拼团商品导出", voList, aliasMap);
+        String fileToOss = UploadFileToOss(exportExecl,fileName);
+        return fileToOss;
     }
 
     /**
@@ -217,7 +216,9 @@ public class ExcelServiceImpl implements ExcelService {
         aliasMap.put("sales", "销量");
         aliasMap.put("browse", "浏览量");
         String exportExecl = ExportUtil.exportExecl(fileName, "商品导出", voList, aliasMap);
-        return exportExecl;
+
+        String fileToOss = UploadFileToOss(exportExecl,fileName);
+        return fileToOss;
     }
 
     /**
@@ -291,8 +292,67 @@ public class ExcelServiceImpl implements ExcelService {
         FileResultVo fileResultVo = null;
         String exportExecl = ExportUtil.exportExecl(fileName, "订单导出", voList, aliasMap);
 
-        return exportExecl;
+        String fileToOss = UploadFileToOss(exportExecl,fileName);
+        return fileToOss;
+    }
 
+
+    /**
+     * 上传文件到OSS
+     *
+     * @param dir
+     * @param fileName
+     * @return
+     */
+    private String UploadFileToOss(String dir, String fileName) {
+        String path = crmebConfig.getImagePath()+dir;
+        String pre = "qn";
+        CloudVo cloudVo = new CloudVo();
+        cloudVo.setDomain(systemConfigService.getValueByKeyException(pre+"UploadUrl"));
+        cloudVo.setAccessKey(systemConfigService.getValueByKeyException(pre+"AccessKey"));
+        cloudVo.setSecretKey(systemConfigService.getValueByKeyException(pre+"SecretKey"));
+        cloudVo.setBucketName(systemConfigService.getValueByKeyException(pre+"StorageName"));
+        cloudVo.setRegion(systemConfigService.getValueByKeyException(pre+"StorageRegion"));
+
+        // 构造一个带指定Zone对象的配置类, 默认华东
+        Configuration cfg = new Configuration(Region.huadong());
+        if(cloudVo.getRegion().equals("huabei")){
+            cfg = new Configuration(Region.huabei());
+        }
+        if(cloudVo.getRegion().equals("huanan")){
+            cfg = new Configuration(Region.huanan());
+        }
+        if(cloudVo.getRegion().equals("beimei")){
+            cfg = new Configuration(Region.beimei());
+        }
+        if(cloudVo.getRegion().equals("dongnanya")){
+            cfg = new Configuration(Region.xinjiapo());
+        }
+
+        // 其他参数参考类注释
+        UploadManager uploadManager = new UploadManager(cfg);
+        // 生成上传凭证，然后准备上传
+        Auth auth = Auth.create(cloudVo.getAccessKey(), cloudVo.getSecretKey());
+        String upToken = auth.uploadToken(cloudVo.getBucketName());
+
+        // 设置文件名
+        Calendar cal = Calendar.getInstance();
+        Date date=new Date();//现在的日期
+        cal.setTime(date);
+        Integer year=cal.get(Calendar.YEAR);//获取年
+        Integer month = cal.get(Calendar.MONTH)+1;//获取月（月份从0开始，如果按照中国的习惯，需要加一）
+        Integer day_moneth=cal.get(Calendar.DAY_OF_MONTH);//获取日（月中的某一天）
+        String key = "exportData/"+year+"/"+month+"/"+day_moneth+"/"+fileName;
+        try {
+            Response response = uploadManager.put(path, key, upToken);
+            //解析上传成功的结果
+            DefaultPutRet putRet = new Gson().fromJson(response.bodyString(), DefaultPutRet.class);
+            String oss = systemConfigService.getValueByKeyException(pre + "UploadUrl");
+            return oss +"/"+putRet.key;
+        } catch (QiniuException ex) {
+            Response r = ex.response;
+            throw new CrmebException(r.toString());
+        }
     }
 }
 
