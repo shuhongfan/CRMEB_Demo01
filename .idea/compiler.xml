@@ -14,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fangou" target="1.8" />
       <module name="FanGouShop-API" target="1.8" />
       <module name="FanGouShop-API-Admin" target="1.8" />
       <module name="FanGouShop-API-Common" target="1.8" />
@@ -28,6 +29,7 @@
       <module name="FanGouShop-API-Common" options="-verbose -parameters" />
       <module name="FanGouShop-API-Front" options="-verbose -parameters" />
       <module name="FanGouShop-API-service" options="-verbose -parameters" />
+      <module name="fangou" options="-verbose -parameters" />
     </option>
   </component>
 </project>

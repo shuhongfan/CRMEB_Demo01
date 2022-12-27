@@ -1,6 +1,146 @@
 {
                     "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:12:49.518",
+                    "timestamp":"2022-12-27 23:00:36.932",
+                    "level": "ERROR",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
+                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+{
+                    "app": "FanGouShop-Admin",
+                    "timestamp":"2022-12-27 23:00:38.056",
+                    "level": "ERROR",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
+                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+{
+                    "app": "FanGouShop-Front",
+                    "timestamp":"2022-12-27 23:18:35.746",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "FanGouShop-Front",
+                    "timestamp":"2022-12-27 23:19:26.167",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "FanGouShop-Admin",
+                    "timestamp":"2022-12-27 23:26:42.771",
                     "level": "ERROR",
                     "thread": "http-nio-8080-exec-1",
                     "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
@@ -49,261 +189,135 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
 	at java.lang.Thread.run(Thread.java:750)
 {
                     "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:12:50.133",
+                    "timestamp":"2022-12-27 23:26:57.842",
                     "level": "ERROR",
-                    "thread": "http-nio-8080-exec-17",
-                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
-                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
-org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
-	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
-	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:17:13.620",
-                    "level": "ERROR",
-                    "thread": "http-nio-8080-exec-16",
-                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
-                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
-org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
-	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
-	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:17:48.529",
-                    "level": "ERROR",
-                    "thread": "http-nio-8080-exec-30",
-                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
-                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
-                    
-org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
-	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
-	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:41:44.080",
-                    "level": "ERROR",
-                    "thread": "crmeb-scheduled-task-pool-24",
-                    "class": "sdk.biz.err",
-                    "message": "ErrorScene^_^40004^_^ACQ.TRADE_NOT_EXIST^_^null^_^Windows 11^_^2022-11-24 18:41:44^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.query&sign=Jhs4Srukr1iOsIwTYkmot4LabW1pALbTJ+cwU9PG09iiAqvwgcqKxpE1sVYOdZi8l6V/jvTkLNkCvRL/IxFbZpIHVG5yocwrwkpOd/zt/ePJHDV2b2O8q42z7OMtvSKLF3kXshsnXfbUNaf87dgs00CtrwFEOSLR1VwXktTH/Weri/LPtbFrtCMAP50Oy59hSS0eic0XOesx1EpNU7hXK9KrMSFoE2x2Yi1+yVH6eH12phdXQ5MRh4HIkMQC1U8xcrCp+OtPQwWbfjs5Bv7+51ILJ4VqgyUar2UAdtNlTgc271gpuOHd03sLZIhEVILIq/Kmb7uyjiyiRGtXWthcOQ==&version=1.0&app_id=2021000120607800&sign_type=RSA2&timestamp=2022-11-24 18:41:43^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"order78838166928647851216021"}^_^Body:{"alipay_trade_query_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_NOT_EXIST","sub_msg":"交易不存在","buyer_pay_amount":"0.00","invoice_amount":"0.00","out_trade_no":"order78838166928647851216021","point_amount":"0.00","receipt_amount":"0.00"},"sign":"as/9VTfp2xtlbV6PaWIELYRLu1sKi/9el7OS1PECmpTKjv6DvuYixlyIWuxOwlNocV3auPtVoEsaefh/y6n53Xy94xLLR2tDaoGpHyZHrZS3sfxq0XzXfXBqbjTzXFIyrorMQmrNGBP3b/ALWdDDVKbHtQl6fTvW6u3BRoMQ/WcoxGTmSBRzBxeYnHfSFHLsOn1FwAVb4QHsMzYIcyQKQ4x3ndxiRY6ZA4vY3Ryo9+s+75i9eDJNet+RKs8E0dskxS73HLFUJMF59wBrFIQ8tbGNELhY22GmcgJCTghi8HPAhiaRQkwdbwMONveFl7c0m5qryqy+A9KWoYDWJJQz9g=="}^_^271ms,376ms,23ms" }
-                    
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:42:44.325",
-                    "level": "ERROR",
-                    "thread": "crmeb-scheduled-task-pool-25",
-                    "class": "sdk.biz.err",
-                    "message": "ErrorScene^_^40004^_^ACQ.TRADE_NOT_EXIST^_^null^_^Windows 11^_^2022-11-24 18:42:44^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.query&sign=GWv2+FsehG8z0ujSEFpApVul2Q5IKjbLw8AG5CtxDJymc9S8sPt3AUHNeqEPbVzgdD4Q2zRr2QJh2Y/T9B6Efij+jZl8/6wLlhTsEVCZlrD9fmZCMycgC09DEK5YhJ6nUG4qXN/Og84pgkJb13Ei+x4xIM2Rq2ij6a45QpLHqKaT/uXYqTA0U8YWHnSnet+GyafQ+QyVfw9TZnpyD0/vUH85yKQouXjW26tM6DYG8kHKXwNyFy8kuUJrQg7L5UAxrr8n14wz6rjruT2plR3inFjt/dqazRMF8vh27QKaWt0vH0c7XGRX8gsqo7X27dvx+S+ctRcN/ejtB+xBB4VHgw==&version=1.0&app_id=2021000120607800&sign_type=RSA2&timestamp=2022-11-24 18:42:44^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"order78838166928647851216021"}^_^Body:{"alipay_trade_query_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_NOT_EXIST","sub_msg":"交易不存在","buyer_pay_amount":"0.00","invoice_amount":"0.00","out_trade_no":"order78838166928647851216021","point_amount":"0.00","receipt_amount":"0.00"},"sign":"as/9VTfp2xtlbV6PaWIELYRLu1sKi/9el7OS1PECmpTKjv6DvuYixlyIWuxOwlNocV3auPtVoEsaefh/y6n53Xy94xLLR2tDaoGpHyZHrZS3sfxq0XzXfXBqbjTzXFIyrorMQmrNGBP3b/ALWdDDVKbHtQl6fTvW6u3BRoMQ/WcoxGTmSBRzBxeYnHfSFHLsOn1FwAVb4QHsMzYIcyQKQ4x3ndxiRY6ZA4vY3Ryo9+s+75i9eDJNet+RKs8E0dskxS73HLFUJMF59wBrFIQ8tbGNELhY22GmcgJCTghi8HPAhiaRQkwdbwMONveFl7c0m5qryqy+A9KWoYDWJJQz9g=="}^_^11ms,202ms,13ms" }
-                    
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:44:44.007",
-                    "level": "ERROR",
-                    "thread": "crmeb-scheduled-task-pool-30",
+                    "thread": "crmeb-scheduled-task-pool-6",
                     "class": "c.s.service.service.impl.SmsServiceImpl",
                     "message": "一号通平台接口接口请求失败:没有此账号" }
                     
 {
                     "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 18:44:44.051",
+                    "timestamp":"2022-12-27 23:26:57.873",
                     "level": "ERROR",
-                    "thread": "crmeb-scheduled-task-pool-30",
+                    "thread": "crmeb-scheduled-task-pool-6",
                     "class": "c.s.s.service.impl.OrderPayServiceImpl",
                     "message": "短信、模板通知、优惠券或打印小票异常" }
                     
 {
                     "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 19:00:15.799",
+                    "timestamp":"2022-12-27 23:27:10.393",
                     "level": "ERROR",
-                    "thread": "http-nio-8080-exec-24",
-                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
-                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "c.s.service.service.impl.SmsServiceImpl",
+                    "message": "一号通平台接口接口请求失败:没有此账号" }
                     
-org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
-	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
-	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+{
+                    "app": "FanGouShop-Admin",
+                    "timestamp":"2022-12-27 23:38:57.939",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "com.alibaba.druid.pool.DruidDataSource",
+                    "message": "discard connection" }
+                    
+java.sql.SQLException: Could not retrieve transation read-only status server
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:951)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:941)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3936)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3907)
+	at com.mysql.jdbc.PreparedStatement.checkReadOnlySafeStatement(PreparedStatement.java:1258)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1278)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.GeneratedMethodAccessor231.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy367.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:163)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy365.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor240.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy149.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:177)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:78)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:96)
+	at com.sun.proxy.$Proxy262.selectList(Unknown Source)
+	at com.shf.service.service.impl.UserBrokerageRecordServiceImpl.findThawList(UserBrokerageRecordServiceImpl.java:460)
+	at com.shf.service.service.impl.UserBrokerageRecordServiceImpl.brokerageThaw(UserBrokerageRecordServiceImpl.java:91)
+	at com.shf.service.service.impl.UserBrokerageRecordServiceImpl$$FastClassBySpringCGLIB$$c32a1ebb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.shf.service.service.impl.UserBrokerageRecordServiceImpl$$EnhancerBySpringCGLIB$$1dfc89f3.brokerageThaw(<generated>)
+	at com.shf.admin.task.brokerage.BrokerageFrozenTask.init(BrokerageFrozenTask.java:34)
+	at sun.reflect.GeneratedMethodAccessor979.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 57,925 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3492)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4043)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2809)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2758)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1612)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3930)
+	... 49 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:114)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:161)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:189)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3049)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3503)
+	... 57 common frames omitted
 {
                     "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 19:00:55.406",
+                    "timestamp":"2022-12-27 23:38:57.970",
                     "level": "ERROR",
-                    "thread": "http-nio-8080-exec-10",
-                    "class": "c.s.service.service.impl.SmsServiceImpl",
-                    "message": "一号通平台接口接口请求失败:没有此账号" }
-                    
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 19:10:45.187",
-                    "level": "ERROR",
-                    "thread": "crmeb-scheduled-task-pool-9",
-                    "class": "sdk.biz.err",
-                    "message": "ErrorScene^_^40004^_^ACQ.TRADE_NOT_EXIST^_^null^_^Windows 11^_^2022-11-24 19:10:45^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.query&sign=R3kGkNbp+xV/anQHgsPE5uyj1gfghBUkP91JEwYT8cRhCBcvUgvkcLmw65pTkQgWk+NGHSjkbm4T2knN9kpuPx1mnVvWSLfZwWBW6mhrdH0tK8wLsLLEpbsJeW0CEFr24qd6RstpZUOouyXfelKwDVCYWsfiGak8CXbrrJ8kFSX4X3JPqYNHYqBHlDPdruYWPakhziQRB/C3Cr70YxmYM9Acm/BGGDO1rSF3gT0MgoBdoaSd+/gh2qyCW1IlQOdQQGKVuH3LMIQNgfYAg9r0w1RfbD3KYUV5kAsHz66YLB5oc92wc5GgBjZC8ZAw4vBIcuG0oBRY9vr1bxnO/3XfmA==&version=1.0&app_id=2021000120607800&sign_type=RSA2&timestamp=2022-11-24 19:10:44^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"order60517166928823195290104"}^_^Body:{"alipay_trade_query_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_NOT_EXIST","sub_msg":"交易不存在","buyer_pay_amount":"0.00","invoice_amount":"0.00","out_trade_no":"order60517166928823195290104","point_amount":"0.00","receipt_amount":"0.00"},"sign":"ol8hx4OoqmjrXCMtrhDhNQ9Mgn0Ya+QsU5NAW3M2xG8NNmCkd328yFnpCx+Xzyqee61a5GU1pG9dg29SnLwujFuzlBHH0SXBVftaT1XwnOn0IMJM6cdvsmtSErGftSxeE0Fgk3wTASwvDEFH7Dcp2xNC7+NVb4/95c+F3Y+j2pQoTIRHquIaFyayc+A9DZA5ExOen1lRg1Tjs5aCuh2UtN0izCSMqvfSc2Aa98J4vvXEO/Wc2vmPJoLfOp4u9OJQ92MUoGxHN/iUIJ7JcJO7N/zXhl0TLhtU1D8ULSfiXg4u6vVN4vouQF/k4Z0fRglva1fwDRnlEO+gPzJWhfiIyQ=="}^_^11ms,302ms,13ms" }
-                    
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 19:12:44.429",
-                    "level": "ERROR",
-                    "thread": "crmeb-scheduled-task-pool-3",
-                    "class": "c.s.service.service.impl.SmsServiceImpl",
-                    "message": "一号通平台接口接口请求失败:没有此账号" }
-                    
-{
-                    "app": "FanGouShop-Admin",
-                    "timestamp":"2022-11-24 19:12:44.439",
-                    "level": "ERROR",
-                    "thread": "crmeb-scheduled-task-pool-3",
-                    "class": "c.s.s.service.impl.OrderPayServiceImpl",
-                    "message": "短信、模板通知、优惠券或打印小票异常" }
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.shf.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : 
+### Error querying database.  Cause: java.sql.SQLException: Could not retrieve transation read-only status server
+### The error may exist in com/shf/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,uid,link_id,link_type,type,title,price,balance,mark,status,frozen_time,thaw_time,create_time,update_time,brokerage_level  FROM eb_user_brokerage_record     WHERE (thaw_time <= ? AND link_type = ? AND type = ? AND status = ?)
+### Cause: java.sql.SQLException: Could not retrieve transation read-only status server
+; Could not retrieve transation read-only status server; nested exception is java.sql.SQLException: Could not retrieve transation read-only status server" }
                     

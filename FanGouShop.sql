@@ -13,6 +13,8 @@
 
  Date: 24/11/2022 19:13:29
 */
+create database FanGouShop;
+use FanGouShop;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;

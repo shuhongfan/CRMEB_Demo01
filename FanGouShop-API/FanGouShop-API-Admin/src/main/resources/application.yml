@@ -1,4 +1,3 @@
-# CRMEB 相关配置
 crmeb:
   version: FanGou-v1.0.0 # 当前代码版本
   domain: #配合swagger使用 # 待部署域名
@@ -30,7 +29,7 @@ spring:
       max-file-size: 50MB #设置单个文件大小
       max-request-size: 50MB #设置单次请求文件的总大小
   application:
-    name: cemrb-admin #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
+    name: FanGouShop-admin #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
   jackson:
     locale: zh_CN
     time-zone: GMT+8
@@ -39,12 +38,12 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.120.20:3307/FanGouShop?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://127.0.0.1:3307/FanGouShop?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: root
 
   redis:
-    host: 192.168.120.20 #地址
+    host: 127.0.0.1 #地址
     port: 6379 #端口
     password:
     timeout: 30000 # 连接超时时间（毫秒）

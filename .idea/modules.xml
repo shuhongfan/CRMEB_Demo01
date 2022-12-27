@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Common/FanGouShop-API-Common.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Common/FanGouShop-API-Common.iml" />
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Front/FanGouShop-API-Front.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-Front/FanGouShop-API-Front.iml" />
       <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-service/FanGouShop-API-service.iml" filepath="$PROJECT_DIR$/FanGouShop-API/FanGouShop-API-service/FanGouShop-API-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FanGouShop-APP/FanGouShop-APP.iml" filepath="$PROJECT_DIR$/FanGouShop-APP/FanGouShop-APP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FanGouShop-Admin/FanGouShop-Admin.iml" filepath="$PROJECT_DIR$/FanGouShop-Admin/FanGouShop-Admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FanGouShop-API/fangou.iml" filepath="$PROJECT_DIR$/FanGouShop-API/fangou.iml" />
     </modules>
   </component>
 </project>
